@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Gilroy', sans-serif;
+  background-color: transparent;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .container {
   background-color: #1E1E1E;
 }
