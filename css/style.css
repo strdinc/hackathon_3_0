@@ -164,7 +164,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(1243 / 1920 * 100vw);
-    left: calc(785 / 1920 * 100vw);
+    right: calc(-1048 / 1920 * 100vw);
   }
 
   .ring_light_blue_png {
