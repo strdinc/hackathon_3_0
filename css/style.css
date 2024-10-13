@@ -49,7 +49,7 @@ body {
     width: calc(837 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(340 / 1920 * 100vw);
+    top: calc(300 / 1920 * 100vw);
     left: calc(909 / 1920 * 100vw);
   }
 
@@ -62,7 +62,7 @@ body {
     width: calc(818 / 1920 * 100vw);
     height: calc(130 / 1920 * 100vw);
     position: absolute;
-    top: calc(812 / 1920 * 100vw);
+    top: calc(772 / 1920 * 100vw);
     left: calc(912 / 1920 * 100vw);
   }
 
