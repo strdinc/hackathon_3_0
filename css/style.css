@@ -162,7 +162,7 @@ body {
   .ring_light_blue {
     width: calc(2183 / 1920 * 100vw);
     height: auto;
-    position: absolute;
+    position: relative;
     top: calc(1243 / 1920 * 100vw);
     right: calc(-1048 / 1920 * 100vw);
   }
@@ -283,6 +283,135 @@ body {
     top: calc(2348 / 1920 * 100vw);
     left: calc(968 / 1920 * 100vw);
   }
+
+  .ball_orange {
+    width: calc(1598 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(6012 / 1920 * 100vw);
+    left: calc(-547 / 1920 * 100vw);
+  }
+
+  .ball_orange_png {
+    width: calc(1598 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .partners {
+    width: calc(1042 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(6214 / 1920 * 100vw);
+    left: calc(695 / 1920 * 100vw);
+  }
+
+  .partners_title {
+    width: calc(1042 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .cell_purple {
+    width: calc(2896 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(6941 / 1920 * 100vw);
+    left: calc(-388 / 1920 * 100vw);
+  }
+
+  .cell_purple_png {
+    width: calc(2896 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .prize {
+    width: calc(641 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(7630 / 1920 * 100vw);
+    left: calc(113 / 1920 * 100vw);
+  }
+
+  .prize_title_png {
+    width: calc(641 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .application {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(1513 / 1920 * 100vw);
+    position: absolute;
+    top: calc(9603 / 1920 * 100vw);
+    left: calc(224 / 1920 * 100vw);
+  }
+
+  .application_title_png {
+    width: calc(1473 / 1920 * 100vw);
+    height: calc(162 / 1920 * 100vw);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .application_form {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(1257 / 1920 * 100vw);
+    position: absolute;
+    top: calc(256 / 1920 * 100vw);
+    left: 0;
+    background-color: #15E9C3;
+    border-radius: calc(39 / 1920 * 100vw);
+  }
+
+  .footer {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(637 / 1920 * 100vw);
+    position: absolute;
+    top: calc(11710 / 1920 * 100vw);
+    left: calc(224 / 1920 * 100vw);
+  }
+
+  .footer_kemsu_logo {
+    width: calc(259 / 1920 * 100vw);
+    height: calc(153 / 1920 * 100vw);
+    position: absolute;
+    top: calc(20 / 1920 * 100vw);
+    left: 0;
+  }
+
+  .footer_ID_logo {
+    width: calc(481 / 1920 * 100vw);
+    height: calc(173 / 1920 * 100vw);
+    position: absolute;
+    top: 0;
+    left: calc(333 / 1920 * 100vw);
+  }
+
+  .conditions {
+    width: calc(253 / 1920 * 100vw);
+    height: calc(59 / 1920 * 100vw);
+    position: absolute;
+    top: calc(256 / 1920 * 100vw);
+    left: 0;
+  }
+
+  .privacy_policy {
+    width: calc(713 / 1920 * 100vw);
+    height: calc(59 / 1920 * 100vw);
+    position: absolute;
+    top: calc(256 / 1920 * 100vw);
+    left: calc(333 / 1920 * 100vw);
+  }
+
+  .emailID {
+    width: calc(347 / 1920 * 100vw);
+    height: calc(59 / 1920 * 100vw);
+    position: absolute;
+    top: calc(256 / 1920 * 100vw);
+    left: calc(1124 / 1920 * 100vw);
+  }
+
+
+
 }
 
 
