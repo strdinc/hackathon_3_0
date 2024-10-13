@@ -15,7 +15,7 @@ body {
 }
 
 /* Стиль для мониторов с соотношением 16:9 */
-@media screen and (min-aspect-ratio: 9/9) and (max-aspect-ratio: 20/9) {
+@media screen and (max-aspect-ratio: 20/9) {
   .container {
     width: calc(1920 / 1920 * 100vw);
   }
@@ -296,7 +296,7 @@ body {
     justify-content: center; /* Выравниваем элементы по центру */
   }
 }
-/* Стиль для телефонов (например, экраны меньше 768px) */
+/* Стиль для телефонов (например, экраны меньше 768px)
 @media screen and (max-width: 768px) {
   .container {
     width: 100vw;
@@ -454,3 +454,4 @@ body {
     height: auto;
   }
 }
+*/
