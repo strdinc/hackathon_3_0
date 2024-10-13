@@ -172,16 +172,8 @@ body {
   }
 }
 
-.rectangle_about {
-  width: calc((1920 - 812) / 1920 * 100vw);
-  height: calc((1285 - 390) / 1920 * 100vw);
-  border-radius: calc(45 / 1920 * 100vw) 0 0 calc(45 / 1920 * 100vw);
-  background-color: #005EBE;
-  position: absolute;
-  top: calc(300 / 1920 * 100vw);
-  left: calc(981 / 1920 * 100vw);
-}
-/**
+
+
 /* Стиль для мониторов с соотношением 21:9 */
 @media screen and (min-aspect-ratio: 21/9) {
   .container {
@@ -194,8 +186,158 @@ body {
 /* Стиль для телефонов (например, экраны меньше 768px) */
 @media screen and (max-width: 768px) {
   .container {
-    width: 100%;
-    flex-direction: column; /* Элементы располагаются вертикально */
-    align-items: center; /* Центрируем элементы по вертикали */
+    width: 100vw;
+  }
+
+  .cross {
+    width: calc(1285 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(-390 / 1920 * 100vw);
+    left: calc(812 / 1920 * 100vw);
+  }
+
+  .cross_img {
+    width: calc(1285 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .ball_blue {
+    width: calc(1323 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(192 / 1920 * 100vw);
+    left: calc(-511 / 1920 * 100vw);;
+  }
+
+  .ball_blue_png {
+    width: calc(1323 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .title{
+    width: calc(837 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(300 / 1920 * 100vw);
+    left: calc(909 / 1920 * 100vw);
+  }
+
+  .title_title_png {
+    width: calc(837 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .button_title {
+    width: calc(818 / 1920 * 100vw);
+    height: calc(130 / 1920 * 100vw);
+    position: absolute;
+    top: calc(772 / 1920 * 100vw);
+    left: calc(912 / 1920 * 100vw);
+  }
+
+  .button {
+    width: calc(818 / 1920 * 100vw);
+    height: calc(130 / 1920 * 100vw);
+    border: none;
+    border-radius: calc(90 / 1920 * 100vw);
+    cursor: pointer;
+  }
+
+  .button_first_img {
+    width: calc(818 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .description_rec {
+    width: calc(1007 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1144 / 1920 * 100vw);
+    left: calc(832 / 1920 * 100vw);
+  }
+
+  .description_rec_png {
+    width: calc(1007 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .participation {
+    width: calc(1102 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1615 / 1920 * 100vw);
+    left: calc(66 / 1920 * 100vw);
+  }
+
+  .participation_title {
+    width: calc(838 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(0 / 1920 * 100vw);
+    left: calc(56 / 1920 * 100vw);
+  }
+
+  .participation_text {
+    width: calc(693 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(292 / 1920 * 100vw);
+    left: calc(36 / 1920 * 100vw);
+  }
+
+  .participation_analytics, .participation_back_end, .participation_testing,
+  .participation_front_end,  .participation_UXUI, .participation_project {
+    height: calc(149 / 1920 * 100vw);
+    width: auto;
+  }
+
+  .participation_analytics {
+    position: absolute;
+    top: calc(571 / 1920 * 100vw);
+    left: calc(388 / 1920 * 100vw);
+  }
+
+  .participation_back_end {
+    position: absolute;
+    top: calc(714 / 1920 * 100vw);
+    left: calc(31 / 1920 * 100vw);
+  }
+
+  .participation_testing {
+    position: absolute;
+    top: calc(774 / 1920 * 100vw);
+    left: calc(463 / 1920 * 100vw);
+  }
+
+  .participation_front_end {
+    position: absolute;
+    top: calc(960 / 1920 * 100vw);
+    left: calc(187 / 1920 * 100vw);
+  }
+
+  .participation_UXUI {
+    position: absolute;
+    top: calc(965 / 1920 * 100vw);
+    left: calc(630 / 1920 * 100vw);
+  }
+
+  .participation_project {
+    position: absolute;
+    top: calc(1155 / 1920 * 100vw);
+    left: calc(0 / 1920 * 100vw);
+  }
+
+  .ring_light_blue {
+    width: calc(2183 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1243 / 1920 * 100vw);
+    left: calc(785 / 1920 * 100vw);
+  }
+
+  .ring_light_blue_png {
+    width: calc(2183 / 1920 * 100vw);
+    height: auto;
   }
 }
