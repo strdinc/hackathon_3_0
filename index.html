@@ -116,17 +116,23 @@
             <input type="tel" placeholder="номер телефона" id="phone" name="phone" required>
 
 
-            <select id="participation-format" name="participation_format" onchange="checkFormat()" required>
-              <option value="" disabled selected>-выберите-</option>
-              <option value="individual">индивидуальный</option>
-              <option value="team">командный</option>
-            </select>
-            <div id="team-options" class="hidden">
-              <select id="has-team" name="has_team" onchange="checkTeam()">
+            <div class="part_container">
+              <div class="part_title">формат участия</div>
+              <select id="participation-format" name="participation_format" onchange="checkFormat()" required>
                 <option value="" disabled selected>-выберите-</option>
-                <option value="yes">да</option>
-                <option value="no">нет</option>
+                <option value="individual">индивидуальный</option>
+                <option value="team">командный</option>
               </select>
+            </div>
+            <div id="team-options" class="hidden">
+              <div class="team_container">
+                <div class="team_title">есть команда?</div>
+                <select id="has-team" name="has_team" onchange="checkTeam()">
+                  <option value="" disabled selected>-выберите-</option>
+                  <option value="yes">да</option>
+                  <option value="no">нет</option>
+                </select>
+              </div>
 
               <div id="team-name-container" class="hidden">
                 <input type="text" placeholder="название команды" id="team-name" name="team_name">
@@ -135,9 +141,12 @@
               <div id="no-team-message" class="hidden">
                 <div class="no-team-text">мы подберём тебе команду</div>
               </div>
+
+
             </div>
 
-            <button type="submit">отправить</button>
+            <button id="subbut" type="submit">отправить</button>
+
           </form>
         </div>
 

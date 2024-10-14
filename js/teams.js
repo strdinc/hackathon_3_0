@@ -11,9 +11,12 @@ function checkFormat() {
 }
 
 function checkTeam() {
+
     const hasTeam = document.getElementById('has-team').value;
     const teamNameContainer = document.getElementById('team-name-container');
     const noTeamMessage = document.getElementById('no-team-message');
+    const PartFormat = document.getElementById('participation-format');
+
 
     if (hasTeam === 'yes') {
         teamNameContainer.classList.remove('hidden');
