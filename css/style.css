@@ -443,19 +443,23 @@ body {
     left: 0;
   }
 
-  input#fio {
+  input#fio, input#institution, input#email,
+  input#phone, input#team-name {
     width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
     background-color: transparent;
+    border-width: calc(5 / 1920 * 100vw);
     border-radius: calc(39 / 1920 * 100vw);
     border-color: #15E9C3;
     padding: calc(59 / 1920 * 100vw) calc(111 / 1920 * 100vw);
+    margin: calc(16 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     box-sizing: border-box;
   }
 
-  input#fio::placeholder {
+  input#fio::placeholder, input#institution::placeholder, input#email::placeholder,
+  input#phone::placeholder, input#team-name::placeholder {
     color: rgba(21, 233, 195, 0.28);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
