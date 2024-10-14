@@ -99,12 +99,15 @@
           <form action="submit.php" method="post">
             <input type="text" placeholder="фио" id="fio" name="fio" required>
 
-            <label for="track">трек</label>
-            <select id="track" name="track" required>
-              <option value="" disabled selected>-выберите-</option>
-              <option value="student">студенческий</option>
-              <option value="school">школьный</option>
-            </select>
+            <div class="track_container">
+              <div class="track_container_text">трек</div>
+              <select id="track" name="track" required>
+                <option value="" disabled selected>-выберите-</option>
+                <option value="student">студенческий</option>
+                <option value="school">школьный</option>
+              </select>
+            </div>
+
 
             <input type="text" placeholder="учебное заведение" id="institution" name="institution" required>
 
@@ -112,14 +115,13 @@
 
             <input type="tel" placeholder="номер телефона" id="phone" name="phone" required>
 
-            <label for="participation-format">формат участия</label>
+
             <select id="participation-format" name="participation_format" onchange="checkFormat()" required>
               <option value="" disabled selected>-выберите-</option>
               <option value="individual">индивидуальный</option>
               <option value="team">командный</option>
             </select>
             <div id="team-options" class="hidden">
-              <label for="has-team">есть команда?</label>
               <select id="has-team" name="has_team" onchange="checkTeam()">
                 <option value="" disabled selected>-выберите-</option>
                 <option value="yes">да</option>

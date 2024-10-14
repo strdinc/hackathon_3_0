@@ -357,7 +357,7 @@ body {
     width: calc(1598 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(6012 / 1920 * 100vw);
+    top: calc(4989 / 1920 * 100vw);
     left: calc(-547 / 1920 * 100vw);
   }
 
@@ -370,7 +370,7 @@ body {
     width: calc(1042 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(6214 / 1920 * 100vw);
+    top: calc(5169/ 1920 * 100vw);
     left: calc(695 / 1920 * 100vw);
   }
 
@@ -383,7 +383,7 @@ body {
     width: calc(2896 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(6941 / 1920 * 100vw);
+    top: calc(5918 / 1920 * 100vw);
     left: calc(-388 / 1920 * 100vw);
   }
 
@@ -396,7 +396,7 @@ body {
     width: calc(641 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(7630 / 1920 * 100vw);
+    top: calc(6607 / 1920 * 100vw);
     left: calc(113 / 1920 * 100vw);
   }
 
@@ -409,7 +409,7 @@ body {
     width: calc(1474 / 1920 * 100vw);
     height: calc(1513 / 1920 * 100vw);
     position: absolute;
-    top: calc(9603 / 1920 * 100vw);
+    top: calc(8580 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
@@ -421,11 +421,9 @@ body {
     left: 0;
   }
 
-
-
   .application_form {
     width: calc(1474 / 1920 * 100vw);
-    height: calc(1257 / 1920 * 100vw);
+    height: auto;
     position: absolute;
     top: calc(256 / 1920 * 100vw);
     left: 0;
@@ -435,7 +433,7 @@ body {
 
   .form-container {
     width: calc(1474 / 1920 * 100vw);
-    height: calc(1799 / 1920 * 100vw);
+    height: auto;
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -465,11 +463,32 @@ body {
     font-size: calc(66 / 1920 * 100vw);
   }
 
+  .track_container {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
+    background-color: #1E1E1E;
+    border: calc(39 / 1920 * 100vw) rgba(21, 233, 195);
+    margin: calc(16 / 1920 * 100vw);
+    border-width: calc(5 / 1920 * 100vw);
+  }
+
+  select#track {
+    width: calc(776 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
+    background-color: #15e9c3;
+    color: black;
+    border-radius: calc(39 / 1920 * 100vw);
+    border-color: #15e9c3;
+    margin: calc(16 / 1920 * 100vw);
+    padding: calc(59 / 1920 * 100vw);
+    border-width: calc(5 / 1920 * 100vw);
+  }
+
   .footer {
     width: calc(1474 / 1920 * 100vw);
     height: calc(637 / 1920 * 100vw);
     position: absolute;
-    top: calc(11710 / 1920 * 100vw);
+    top: calc(10687 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
