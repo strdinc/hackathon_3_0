@@ -466,13 +466,16 @@ body {
   .track_container {
     width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
-    background-color: #1E1E1E;
-    border: calc(39 / 1920 * 100vw) rgba(21, 233, 195);
-    margin: calc(16 / 1920 * 100vw);
+    background-color: transparent;
     border-width: calc(5 / 1920 * 100vw);
+    border-radius: calc(39 / 1920 * 100vw);
+    border-color: #15E9C3;
+    padding: calc(59 / 1920 * 100vw) calc(111 / 1920 * 100vw);
+    margin: calc(16 / 1920 * 100vw);
   }
 
-  select#track {
+
+  select#track, select#participation-format, select#has-team {
     width: calc(776 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
     background-color: #15e9c3;
@@ -482,6 +485,23 @@ body {
     margin: calc(16 / 1920 * 100vw);
     padding: calc(59 / 1920 * 100vw);
     border-width: calc(5 / 1920 * 100vw);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  #no-team-message {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
+    background-color: transparent;
+    border-width: calc(5 / 1920 * 100vw);
+    border-radius: calc(39 / 1920 * 100vw);
+    border-color: #15E9C3;
+    padding: calc(59 / 1920 * 100vw) calc(111 / 1920 * 100vw);
+    margin: calc(16 / 1920 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(66 / 1920 * 100vw);
+    box-sizing: border-box;
   }
 
   .footer {
