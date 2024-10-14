@@ -1080,6 +1080,7 @@ body {
 
   select#track option, select#participation-format option, select#has-team option {
     font-family: 'Gilroy', sans-serif;
+    padding-left: calc(106 / 1920 * 100vw);
     font-size: calc(66 / 1920 * 100vw);
     font-weight: 550;
   }
