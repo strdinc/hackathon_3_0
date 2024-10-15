@@ -91,7 +91,13 @@ body {
   .ball_orange_mobile, .ball_orange_png_mobile,
   .cell_purple_mobile, .cell_purple_png_mobile,
   .ring_light_blue_mobile, .ring_light_blue_mobile_png,
-  .description_rec_mobile, .description_rec_mobile_png {
+  .description_rec_mobile, .description_rec_mobile_png,
+  .schedule_line_1, .schedule_line_2,
+  .schedule_line_3_left, .schedule_line_3_right,
+  .schedule_line_4_left, .schedule_line_4_right,
+  .participation_title_mobile, .participation_text_mobile,
+  .partners_mobile, .partners_title_mobile,
+  .prize_mobile, .prize_title_mobile_png{
     display: none;
   }
 
@@ -539,6 +545,7 @@ body {
     font-size: calc(35 / 1920 * 100vw);
     font-weight: 550;
     text-align: center;
+    cursor: pointer;
   }
 
   select#track option, select#participation-format option, select#has-team option {
@@ -618,7 +625,7 @@ body {
     width: calc(1474 / 1920 * 100vw);
     height: calc(637 / 1920 * 100vw);
     position: absolute;
-    top: calc(10687 / 1920 * 100vw);
+    top: calc(9800 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
@@ -682,9 +689,15 @@ body {
   }
 
   .cross, .cross_img, .ball_blue, .ball_blue_png,
-  .ball_orange, .ball_orange_png
+  .ball_orange, .ball_orange_png,
   .cell_purple, .cell_purple_png, .ring_light_blue, .ring_light_blue_png,
-  .description_rec, .description_rec_png {
+  .description_rec, .description_rec_png,
+  .schedule_line_1_desk, .schedule_line_2_desk,
+  .schedule_line_3_left_desk, .schedule_line_3_right_desk,
+  .schedule_line_4_left_desk, .schedule_line_4_right_desk,
+  .participation_title, .participation_text,
+  .partners, .partners_title,
+  .prize, .prize_title_png {
     display: none;
   }
 
@@ -719,7 +732,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(1324 / 1920 * 100vw);
-    left: calc(180 / 1920 * 100vw);
+    left: calc(140 / 1920 * 100vw);
   }
 
   .title_title_png {
@@ -732,7 +745,7 @@ body {
     height: calc(255 / 1920 * 100vw);
     position: absolute;
     top: calc(2420 / 1920 * 100vw);
-    left: calc(180 / 1920 * 100vw);
+    left: calc(140 / 1920 * 100vw);
   }
 
   .button {
@@ -766,7 +779,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(3729 / 1920 * 100vw);
-    left: calc(180 / 1920 * 100vw);
+    left: calc(140 / 1920 * 100vw);
   }
 
   .description_rec_mobile_png {
@@ -775,237 +788,232 @@ body {
   }
 
   .participation {
-    width: calc(1102 / 1920 * 100vw);
+    width: calc(1600 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(1615 / 1920 * 100vw);
-    left: calc(66 / 1920 * 100vw);
+    top: calc(4407 / 1920 * 100vw);
+    left: calc(120 / 1920 * 100vw);
   }
 
-  .participation_title {
-    width: calc(838 / 1920 * 100vw);
+  .participation_title_mobile {
+    width: calc(1600 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(0 / 1920 * 100vw);
-    left: calc(56 / 1920 * 100vw);
+    top: 0;
+    left: 0;
   }
 
-  .participation_text {
-    width: calc(693 / 1920 * 100vw);
+  .participation_text_mobile {
+    width: calc(1600 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(292 / 1920 * 100vw);
-    left: calc(36 / 1920 * 100vw);
+    top: calc(469 / 1920 * 100vw);
+    left: 0;
   }
 
   .participation_analytics, .participation_back_end, .participation_testing,
   .participation_front_end,  .participation_UXUI, .participation_project {
-    height: calc(112 / 1920 * 100vw);
+    height: calc(214 / 1920 * 100vw);
     width: auto;
   }
 
   .participation_analytics {
     position: absolute;
-    top: calc(545 / 1920 * 100vw);
-    left: calc(36 / 1920 * 100vw);
+    top: calc(1025 / 1920 * 100vw);
+    left: 0;
   }
 
   .participation_back_end {
     position: absolute;
-    top: calc(690 / 1920 * 100vw);
-    left: calc(633 / 1920 * 100vw);
+    top: calc(1025 / 1920 * 100vw);
+    left: calc(676 / 1920 * 100vw);
   }
 
   .participation_testing {
     position: absolute;
-    top: calc(841 / 1920 * 100vw);
-    left: calc(36 / 1920 * 100vw);
+    top: calc(1626 / 1920 * 100vw);
+    left: calc(774 / 1920 * 100vw);
   }
 
   .participation_front_end {
     position: absolute;
-    top: calc(546 / 1920 * 100vw);
-    left: calc(394 / 1920 * 100vw);
+    top: calc(1330 / 1920 * 100vw);
+    left: calc(1072 / 1920 * 100vw);
   }
 
   .participation_UXUI {
     position: absolute;
-    top: calc(845 / 1920 * 100vw);
-    left: calc(451 / 1920 * 100vw);
+    top: calc(1635 / 1920 * 100vw);
+    left: 0;
   }
 
   .participation_project {
     position: absolute;
-    top: calc(689 / 1920 * 100vw);
-    left: calc(92 / 1920 * 100vw);
+    top: calc(1330 / 1920 * 100vw);
+    left: calc(44 / 1920 * 100vw);
   }
 
   .schedule {
-    width: calc(1744 / 1920 * 100vw);
+    width: calc(1600 / 1920 * 100vw);
+    height: calc(2029 / 1920 * 100vw);
+    position: absolute;
+    top: calc(6408 / 1920 * 100vw);
+    left: calc(55 / 1920 * 100vw);
+  }
+
+  .schedule_line_1 {
+    width: calc(459 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(2765 / 1920 * 100vw);
-    left: calc(88 / 1920 * 100vw);
+    top: calc(54 / 1920 * 100vw);
+    left: calc(752 / 1920 * 100vw);
   }
 
-  .schedule_line_1, .schedule_line_2, .schedule_line_3_left,
-  .schedule_line_3_right, .schedule_line_4_left, .schedule_line_4_right {
-    display: none;
-  }
-
-  .schedule_line_1_desk {
-    width: calc(379 / 1920 * 100vw);
+  .schedule_line_2 {
+    width: calc(595 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(81 / 1920 * 100vw);
-    left: calc(773 / 1920 * 100vw);
+    top: calc(481 / 1920 * 100vw);
+    left: calc(473 / 1920 * 100vw);
   }
 
-  .schedule_line_2_desk {
-    width: calc(587 / 1920 * 100vw);
+  .schedule_line_3_left {
+    width: calc(505 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(395 / 1920 * 100vw);
-    left: calc(438 / 1920 * 100vw);
+    top: calc(1089 / 1920 * 100vw);
+    left: calc(158 / 1920 * 100vw);
   }
 
-  .schedule_line_3_left_desk {
-    width: calc(417 / 1920 * 100vw);
+  .schedule_line_3_right {
+    width: calc(235 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(821 / 1920 * 100vw);
-    left: calc(447 / 1920 * 100vw);
+    top: calc(1106 / 1920 * 100vw);
+    left: calc(1121 / 1920 * 100vw);
   }
 
-  .schedule_line_3_right_desk {
-    width: calc(470 / 1920 * 100vw);
+  .schedule_line_4_left {
+    width: calc(239 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(627 / 1920 * 100vw);
-    left: calc(575 / 1920 * 100vw);
+    top: calc(1907 / 1920 * 100vw);
+    left: calc(205 / 1920 * 100vw);
   }
 
-  .schedule_line_4_left_desk {
-    width: calc(197 / 1920 * 100vw);
-    height: auto;
-    position: absolute;
-    top: calc(1358 / 1920 * 100vw);
-    left: calc(210 / 1920 * 100vw);
-  }
-
-  .schedule_line_4_right_desk {
+  .schedule_line_4_right {
     width: calc(507 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(1042 / 1920 * 100vw);
-    left: calc(1137 / 1920 * 100vw);
+    top: calc(1775 / 1920 * 100vw);
+    left: calc(1208 / 1920 * 100vw);
   }
 
   .schedule_registration {
-    width: calc(678 / 1920 * 100vw);
+    width: calc(821 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(37 / 1920 * 100vw);
-    left: calc(201 / 1920 * 100vw);
+    top: calc(0 / 1920 * 100vw);
+    left: calc(59 / 1920 * 100vw);
   }
 
   .schedule_opening {
-    width: calc(617 / 1920 * 100vw);
+    width: calc(745 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(250 / 1920 * 100vw);
-    left: calc(919 / 1920 * 100vw);
+    top: calc(259 / 1920 * 100vw);
+    left: calc(929 / 1920 * 100vw);
   }
 
   .schedule_competition {
-    width: calc(756 / 1920 * 100vw);
+    width: calc(915 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(556 / 1920 * 100vw);
-    left: calc(167 / 1920 * 100vw);
+    top: calc(807 / 1920 * 100vw);
+    left: calc(379 / 1920 * 100vw);
   }
 
   .schedule_competitions_pupils {
-    width: calc(617 / 1920 * 100vw);
+    width: calc(747 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(1041 / 1920 * 100vw);
-    left: calc(82 / 1920 * 100vw);
+    top: calc(1439 / 1920 * 100vw);
+    left: calc(0 / 1920 * 100vw);
   }
 
   .schedule_competitions_students {
-    width: calc(756 / 1920 * 100vw);
+    width: calc(915 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(834 / 1920 * 100vw);
-    left: calc(927 / 1920 * 100vw);
+    top: calc(1459 / 1920 * 100vw);
+    left: calc(829 / 1920 * 100vw);
   }
 
   .schedule_results_pupils {
-    width: calc(617 / 1920 * 100vw);
+    width: calc(747 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(1589 / 1920 * 100vw);
-    left: calc(121 / 1920 * 100vw);
+    top: calc(2348 / 1920 * 100vw);
+    left: calc(29 / 1920 * 100vw);
   }
 
   .schedule_results_students {
-    width: calc(617 / 1920 * 100vw);
+    width: calc(747 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(1467 / 1920 * 100vw);
-    left: calc(950 / 1920 * 100vw);
+    top: calc(2348 / 1920 * 100vw);
+    left: calc(968 / 1920 * 100vw);
   }
 
-  .ball_orange {
-    width: calc(1598 / 1920 * 100vw);
+  .ball_orange_mobile {
+    width: calc(1398 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(4989 / 1920 * 100vw);
-    left: calc(-547 / 1920 * 100vw);
+    top: calc(9516 / 1920 * 100vw);
+    left: 0;
   }
 
-  .ball_orange_png {
-    width: calc(1598 / 1920 * 100vw);
+  .ball_orange_mobile_png {
+    width: calc(1398 / 1920 * 100vw);
     height: auto;
   }
 
-  .partners {
-    width: calc(1042 / 1920 * 100vw);
-    height: auto;
-    position: absolute;
-    top: calc(5169/ 1920 * 100vw);
-    left: calc(695 / 1920 * 100vw);
-  }
-
-  .partners_title {
-    width: calc(1042 / 1920 * 100vw);
-    height: auto;
-  }
-
-  .cell_purple {
-    width: calc(2896 / 1920 * 100vw);
+  .partners_mobile {
+    width: calc(1488 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(5918 / 1920 * 100vw);
-    left: calc(-388 / 1920 * 100vw);
+    top: calc(9891/ 1920 * 100vw);
+    left: calc(200 / 1920 * 100vw);
   }
 
-  .cell_purple_png {
-    width: calc(2896 / 1920 * 100vw);
+  .partners_title_mobile {
+    width: calc(1488 / 1920 * 100vw);
     height: auto;
   }
 
-  .prize {
-    width: calc(641 / 1920 * 100vw);
+  .cell_purple_mobile {
+    width: calc(1920 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(6607 / 1920 * 100vw);
-    left: calc(113 / 1920 * 100vw);
+    top: calc(11010 / 1920 * 100vw);
+    left: 0;
   }
 
-  .prize_title_png {
-    width: calc(641 / 1920 * 100vw);
+  .cell_purple_mobile_png {
+    width: calc(1920 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .prize_mobile {
+    width: calc(900 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(11387 / 1920 * 100vw);
+    left: calc(790 / 1920 * 100vw);
+  }
+
+  .prize_title_mobile_png {
+    width: calc(900 / 1920 * 100vw);
     height: auto;
   }
 
@@ -1015,8 +1023,8 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(8580 / 1920 * 100vw);
-    left: calc(224 / 1920 * 100vw);
+    top: calc(13953 / 1920 * 100vw);
+    left: calc(185 / 1920 * 100vw);
   }
 
   .application_title_png {
@@ -1050,7 +1058,7 @@ body {
   }
 
   input#fio, input#institution, input#email,
-  input#phone, input#team-name {
+  input#phone {
     width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
     background-color: transparent;
@@ -1067,11 +1075,38 @@ body {
     font-weight: 550;
   }
 
+    input#team-name {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
+    background-color: transparent;
+    border-width: calc(5 / 1920 * 100vw);
+    border-radius: calc(39 / 1920 * 100vw);
+    border-color: #15E9C3;
+    vertical-align: center;
+    padding-left: calc(106 / 1920 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(66 / 1920 * 100vw);
+    box-sizing: border-box;
+    font-weight: 550;
+  }
+
   input#fio::placeholder, input#institution::placeholder, input#email::placeholder,
   input#phone::placeholder, input#team-name::placeholder {
     color: rgba(21, 233, 195, 0.28);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
+  }
+
+   .team_container, .part_container {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
+    background-color: transparent;
+    border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
+    border-radius: calc(39 / 1920 * 100vw);
+    margin-top: calc(16 / 1920 * 100vw);
+    margin-bottom: calc(16 / 1920 * 100vw);
+    position: relative;
+    padding-left: calc(106 / 1920 * 100vw);
   }
 
   .track_container, .team_container, .part_container {
@@ -1081,7 +1116,7 @@ body {
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
     border-radius: calc(39 / 1920 * 100vw);
     margin-top: calc(16 / 1920 * 100vw);
-    margin-bottom: calc(16 / 1920 * 100vw);
+    margin-bottom: calc(32 / 1920 * 100vw);
     position: relative;
     padding-left: calc(106 / 1920 * 100vw);
   }
@@ -1106,7 +1141,7 @@ body {
     border-radius: calc(39 / 1920 * 100vw);
     border-color: #15e9c3;
     border-width: calc(5 / 1920 * 100vw);
-    padding-left: calc(106 / 1920 * 100vw);
+    margin: auto;
     position: absolute;
     top: calc(-5 / 1920 * 100vw);
     right: calc(-5 / 1920 * 100vw);
@@ -1114,6 +1149,7 @@ body {
     font-size: calc(66 / 1920 * 100vw);
     font-weight: 550;
     text-align: center;
+    cursor: pointer;
   }
 
 
@@ -1145,7 +1181,7 @@ body {
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
     margin-top: calc(32 / 1920 * 100vw);
-    margin-bottom: calc(16 / 1920 * 100vw);
+    margin-bottom: calc(32 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     position: relative;
@@ -1195,7 +1231,7 @@ body {
     width: calc(1474 / 1920 * 100vw);
     height: calc(637 / 1920 * 100vw);
     position: absolute;
-    top: calc(10687 / 1920 * 100vw);
+    top: calc(16000 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
