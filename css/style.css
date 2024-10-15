@@ -84,6 +84,17 @@ body {
     width: calc(1920 / 1920 * 100vw);
   }
 
+
+
+  .cross_mobile, .cross_img_mobile,
+  .ball_blue_mobile, .ball_blue_png_mobile,
+  .ball_orange_mobile, .ball_orange_png_mobile,
+  .cell_purple_mobile, .cell_purple_png_mobile,
+  .ring_light_blue_mobile, .ring_light_blue_mobile_png,
+  .description_rec_mobile, .description_rec_mobile_png {
+    display: none;
+  }
+
   .cross {
     width: calc(1285 / 1920 * 100vw);
     height: auto;
@@ -670,76 +681,96 @@ body {
     width: calc(1920 / 1920 * 100vw);
   }
 
-  .cross {
-    width: calc(1285 / 1920 * 100vw);
+  .cross, .cross_img, .ball_blue, .ball_blue_png,
+  .ball_orange, .ball_orange_png
+  .cell_purple, .cell_purple_png, .ring_light_blue, .ring_light_blue_png,
+  .description_rec, .description_rec_png {
+    display: none;
+  }
+
+  .cross_mobile {
+    width: calc(1247 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(-390 / 1920 * 100vw);
-    left: calc(812 / 1920 * 100vw);
+    right: 0;
+    top: 0;
   }
 
-  .cross_img {
-    width: calc(1285 / 1920 * 100vw);
+  .cross_mobile_img {
+    width: calc(1247 / 1920 * 100vw);
     height: auto;
   }
 
-  .ball_blue {
-    width: calc(1323 / 1920 * 100vw);
+  .ball_blue_mobile {
+    width: calc(873 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(192 / 1920 * 100vw);
-    left: calc(-511 / 1920 * 100vw);;
+    top: calc(985 / 1920 * 100vw);
+    left: 0;
   }
 
-  .ball_blue_png {
-    width: calc(1323 / 1920 * 100vw);
+  .ball_blue_mobile_png {
+    width: calc(873 / 1920 * 100vw);
     height: auto;
   }
 
   .title{
-    width: calc(837 / 1920 * 100vw);
+    width: calc(1560 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(300 / 1920 * 100vw);
-    left: calc(909 / 1920 * 100vw);
+    top: calc(1324 / 1920 * 100vw);
+    left: calc(180 / 1920 * 100vw);
   }
 
   .title_title_png {
-    width: calc(837 / 1920 * 100vw);
+    width: calc(1560 / 1920 * 100vw);
     height: auto;
   }
 
   .button_title {
-    width: calc(818 / 1920 * 100vw);
-    height: calc(130 / 1920 * 100vw);
+    width: calc(1560 / 1920 * 100vw);
+    height: calc(255 / 1920 * 100vw);
     position: absolute;
-    top: calc(772 / 1920 * 100vw);
-    left: calc(912 / 1920 * 100vw);
+    top: calc(2420 / 1920 * 100vw);
+    left: calc(180 / 1920 * 100vw);
   }
 
   .button {
-    width: calc(818 / 1920 * 100vw);
-    height: calc(130 / 1920 * 100vw);
+    width: calc(1560 / 1920 * 100vw);
+    height: calc(255 / 1920 * 100vw);
     border: none;
     border-radius: calc(90 / 1920 * 100vw);
     cursor: pointer;
   }
 
   .button_first_img {
-    width: calc(818 / 1920 * 100vw);
+    width: calc(1560 / 1920 * 100vw);
     height: auto;
   }
 
-  .description_rec {
-    width: calc(1007 / 1920 * 100vw);
+  .ring_light_blue_mobile {
+    width: calc(1462 / 1920 * 100vw);
+    height: auto;
+    position: relative;
+    top: calc(2439 / 1920 * 100vw);
+    left: calc(458 / 1920 * 100vw);
+  }
+
+  .ring_light_blue_mobile_png {
+    width: calc(1462 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .description_rec_mobile {
+    width: calc(1600 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(1144 / 1920 * 100vw);
-    left: calc(832 / 1920 * 100vw);
+    top: calc(3729 / 1920 * 100vw);
+    left: calc(180 / 1920 * 100vw);
   }
 
-  .description_rec_png {
-    width: calc(1007 / 1920 * 100vw);
+  .description_rec_mobile_png {
+    width: calc(1600 / 1920 * 100vw);
     height: auto;
   }
 
@@ -807,19 +838,6 @@ body {
     position: absolute;
     top: calc(689 / 1920 * 100vw);
     left: calc(92 / 1920 * 100vw);
-  }
-
-  .ring_light_blue {
-    width: calc(2183 / 1920 * 100vw);
-    height: auto;
-    position: relative;
-    top: calc(1243 / 1920 * 100vw);
-    right: calc(-1048 / 1920 * 100vw);
-  }
-
-  .ring_light_blue_png {
-    width: calc(2183 / 1920 * 100vw);
-    height: auto;
   }
 
   .schedule {
