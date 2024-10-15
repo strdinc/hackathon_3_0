@@ -732,7 +732,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(1324 / 1920 * 100vw);
-    left: calc(140 / 1920 * 100vw);
+    left: calc(180 / 1920 * 100vw);
   }
 
   .title_title_png {
@@ -745,7 +745,7 @@ body {
     height: calc(255 / 1920 * 100vw);
     position: absolute;
     top: calc(2420 / 1920 * 100vw);
-    left: calc(140 / 1920 * 100vw);
+    left: calc(180 / 1920 * 100vw);
   }
 
   .button {
@@ -779,7 +779,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(3729 / 1920 * 100vw);
-    left: calc(140 / 1920 * 100vw);
+    left: calc(180 / 1920 * 100vw);
   }
 
   .description_rec_mobile_png {
