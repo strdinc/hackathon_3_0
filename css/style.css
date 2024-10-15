@@ -735,7 +735,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(1324 / 1920 * 100vw);
-
+    left: calc(84 / 1920 * 100vw);
   }
 
   .title_title_png {
@@ -748,6 +748,7 @@ body {
     height: calc(255 / 1920 * 100vw);
     position: absolute;
     top: calc(2420 / 1920 * 100vw);
+    left: calc(84 / 1920 * 100vw);
   }
 
   .button {
@@ -781,6 +782,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(3729 / 1920 * 100vw);
+    left: calc(160 / 1920 * 100vw);
   }
 
   .description_rec_mobile_png {
@@ -793,6 +795,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(4407 / 1920 * 100vw);
+    left: calc(160 / 1920 * 100vw);
   }
 
   .participation_title_mobile {
@@ -858,6 +861,7 @@ body {
     height: calc(2029 / 1920 * 100vw);
     position: absolute;
     top: calc(6408 / 1920 * 100vw);
+    left: calc(160 / 1920 * 100vw);
   }
 
   .schedule_line_1 {
@@ -1023,6 +1027,7 @@ body {
     flex-direction: column;
     position: absolute;
     top: calc(13953 / 1920 * 100vw);
+    left: calc(223 / 1920 * 100vw);
   }
 
   .application_title_png {
@@ -1230,6 +1235,7 @@ body {
     height: calc(637 / 1920 * 100vw);
     position: absolute;
     top: calc(16000 / 1920 * 100vw);
+    left: calc(223 / 1920 * 100vw);
   }
 
   .footer_kemsu_logo {
