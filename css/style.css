@@ -685,7 +685,10 @@ body {
 /* Стиль для телефонов (например, экраны меньше 768px) */
 @media screen and (max-aspect-ratio: 1/1) {
   .container {
+    display: flex;
     width: calc(1920 / 1920 * 100vw);
+    align-items: center;
+    justify-content: center;
   }
 
   .cross, .cross_img, .ball_blue, .ball_blue_png,
@@ -732,7 +735,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(1324 / 1920 * 100vw);
-    left: calc(180 / 1920 * 100vw);
+
   }
 
   .title_title_png {
@@ -745,7 +748,6 @@ body {
     height: calc(255 / 1920 * 100vw);
     position: absolute;
     top: calc(2420 / 1920 * 100vw);
-    left: calc(180 / 1920 * 100vw);
   }
 
   .button {
