@@ -810,7 +810,7 @@ body {
     width: calc(1600 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(469 / 1920 * 100vw);
+    top: calc(451 / 1920 * 100vw);
     left: 0;
   }
 
@@ -861,7 +861,7 @@ body {
     height: calc(2029 / 1920 * 100vw);
     position: absolute;
     top: calc(6408 / 1920 * 100vw);
-    left: calc(160 / 1920 * 100vw);
+    left: calc(80 / 1920 * 100vw);
   }
 
   .schedule_line_1 {
