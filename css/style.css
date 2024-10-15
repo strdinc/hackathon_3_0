@@ -478,6 +478,7 @@ body {
     font-size: calc(41 / 1920 * 100vw);
     box-sizing: border-box;
     font-weight: 550;
+    color: white;
   }
 
   input#fio, input#email {
@@ -1074,22 +1075,24 @@ body {
     font-size: calc(66 / 1920 * 100vw);
     box-sizing: border-box;
     font-weight: 550;
+    color: white;
   }
 
     input#team-name {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
-    background-color: transparent;
-    border-width: calc(5 / 1920 * 100vw);
-    border-radius: calc(39 / 1920 * 100vw);
-    border-color: #15E9C3;
-    vertical-align: center;
-    padding-left: calc(106 / 1920 * 100vw);
-    font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
-    box-sizing: border-box;
-    font-weight: 550;
-  }
+      width: calc(1474 / 1920 * 100vw);
+      height: calc(154 / 1920 * 100vw);
+      background-color: transparent;
+      border-width: calc(5 / 1920 * 100vw);
+      border-radius: calc(39 / 1920 * 100vw);
+      border-color: #15E9C3;
+      vertical-align: center;
+      padding-left: calc(106 / 1920 * 100vw);
+      font-family: 'Gilroy', sans-serif;
+      font-size: calc(66 / 1920 * 100vw);
+      box-sizing: border-box;
+      font-weight: 550;
+      color: white;
+    }
 
   input#fio::placeholder, input#institution::placeholder, input#email::placeholder,
   input#phone::placeholder, input#team-name::placeholder {
@@ -1149,7 +1152,7 @@ body {
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     font-weight: 550;
-    text-align: center;
+    padding: calc(66 / 1920 * 100vw);
     cursor: pointer;
   }
 
@@ -1229,51 +1232,51 @@ body {
   }
 
   .footer {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(637 / 1920 * 100vw);
+    width: calc(1600 / 1920 * 100vw);
+    height: calc(682 / 1920 * 100vw);
     position: absolute;
     top: calc(16000 / 1920 * 100vw);
-    left: calc(223 / 1920 * 100vw);
+    left: calc(160 / 1920 * 100vw);
   }
 
   .footer_kemsu_logo {
-    width: calc(259 / 1920 * 100vw);
-    height: calc(153 / 1920 * 100vw);
+    width: calc(508 / 1920 * 100vw);
+    height: calc(307 / 1920 * 100vw);
     position: absolute;
-    top: calc(20 / 1920 * 100vw);
+    top: calc(39 / 1920 * 100vw);
     left: 0;
   }
 
   .footer_ID_logo {
-    width: calc(481 / 1920 * 100vw);
-    height: calc(173 / 1920 * 100vw);
+    width: calc(944 / 1920 * 100vw);
+    height: calc(346 / 1920 * 100vw);
     position: absolute;
     top: 0;
-    left: calc(333 / 1920 * 100vw);
+    left: calc(656 / 1920 * 100vw);
   }
 
   .conditions {
-    width: calc(253 / 1920 * 100vw);
-    height: calc(59 / 1920 * 100vw);
+    width: calc(325 / 1920 * 100vw);
+    height: calc(76 / 1920 * 100vw);
     position: absolute;
-    top: calc(256 / 1920 * 100vw);
+    top: calc(380 / 1920 * 100vw);
     left: 0;
   }
 
   .privacy_policy {
-    width: calc(713 / 1920 * 100vw);
-    height: calc(59 / 1920 * 100vw);
+    width: calc(916 / 1920 * 100vw);
+    height: calc(76 / 1920 * 100vw);
     position: absolute;
-    top: calc(256 / 1920 * 100vw);
-    left: calc(333 / 1920 * 100vw);
+    top: calc(471 / 1920 * 100vw);
+    left: 0;
   }
 
   .emailID {
-    width: calc(347 / 1920 * 100vw);
-    height: calc(59 / 1920 * 100vw);
+    width: calc(446 / 1920 * 100vw);
+    height: calc(76 / 1920 * 100vw);
     position: absolute;
-    top: calc(256 / 1920 * 100vw);
-    left: calc(1124 / 1920 * 100vw);
+    top: calc(562 / 1920 * 100vw);
+    left: 0;
   }
 
 }
