@@ -406,7 +406,7 @@ body {
   }
 
   .application {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1700 / 1920 * 100vw);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -416,7 +416,7 @@ body {
   }
 
   .application_title_png {
-    width: calc(1473 / 1920 * 100vw);
+    width: calc(1500 / 1920 * 100vw);
     height: calc(162 / 1920 * 100vw);
     position: absolute;
     top: 0;
@@ -424,19 +424,19 @@ body {
   }
 
   .application_form {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1700 / 1920 * 100vw);
     height: auto;
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(256 / 1920 * 100vw);
+    top: calc(200 / 1920 * 100vw);
     left: 0;
     background-color: transparent;
     border-radius: calc(39 / 1920 * 100vw);
   }
 
   .form-container {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1700 / 1920 * 100vw);
     height: auto;
     display: flex;
     position: absolute;
@@ -447,56 +447,75 @@ body {
 
   input#fio, input#institution, input#email,
   input#phone, input#team-name {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(727 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
     background-color: transparent;
     border-width: calc(5 / 1920 * 100vw);
     border-radius: calc(39 / 1920 * 100vw);
     border-color: #15E9C3;
     vertical-align: center;
-    padding-left: calc(106 / 1920 * 100vw);
-    margin-top: calc(16 / 1920 * 100vw);
-    margin-bottom: calc(16 / 1920 * 100vw);
+    padding-left: calc(32 / 1920 * 100vw);
+    margin-top: calc(8 / 1920 * 100vw);
+    margin-bottom: calc(8 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(41 / 1920 * 100vw);
     box-sizing: border-box;
     font-weight: 550;
   }
+
+  input#fio, input#email {
+    margin-right: calc(12 / 1920 * 100vw);
+  }
+
+  input#institution, input#phone {
+    margin-left: calc(12 / 1920 * 100vw);
+  }
+
 
   input#fio::placeholder, input#institution::placeholder, input#email::placeholder,
   input#phone::placeholder, input#team-name::placeholder {
     color: rgba(21, 233, 195, 0.28);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(41 / 1920 * 100vw);
   }
 
-  .track_container, .team_container, .part_container {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+  .track_container, .part_container {
+    width: calc(727 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
     border-radius: calc(39 / 1920 * 100vw);
-    margin-top: calc(16 / 1920 * 100vw);
+    margin-top: calc(8 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
     position: relative;
-    padding-left: calc(106 / 1920 * 100vw);
+    padding-left: calc(32 / 1920 * 100vw);
   }
 
-  .track_title, .team_title, .part_title {
+  .track_title, .team_title {
     width: auto;
     height: auto;
     position: absolute;
-    top: calc(27 / 1920 * 100vw);
+    top: calc(18 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(41 / 1920 * 100vw);
+    color: #15E9C3FF;
+  }
+
+  .part_title {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: calc(21 / 1920 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(35 / 1920 * 100vw);
     color: #15E9C3FF;
   }
 
 
   select#track, select#participation-format, select#has-team {
     appearance: none;
-    width: calc(776 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(381 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
     background-color: #15e9c3;
     color: #1e1e1e;
     border-radius: calc(39 / 1920 * 100vw);
@@ -506,25 +525,31 @@ body {
     top: calc(-5 / 1920 * 100vw);
     right: calc(-5 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(35 / 1920 * 100vw);
     font-weight: 550;
     text-align: center;
   }
 
   select#track option, select#participation-format option, select#has-team option {
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(41 / 1920 * 100vw);
     font-weight: 550;
   }
 
   .team_container {
-    margin-top: calc(32 / 1920 * 100vw);
+    width: calc(727 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
+    background-color: transparent;
+    border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
+    border-radius: calc(39 / 1920 * 100vw);
+    margin-top: calc(8 / 1920 * 100vw);
+    margin-bottom: calc(8 / 1920 * 100vw);
+    position: relative;
+    padding-left: calc(32 / 1920 * 100vw);
   }
 
-
-
   #team-options {
-    width: calc(776 / 1920 * 100vw);
+    width: calc(726 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
     margin-top: calc(16 / 1920 * 100vw);
   }
@@ -532,15 +557,14 @@ body {
 
 
   #no-team-message {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(726 / 1920 * 100vw);
+    height: calc(97 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
-    margin-top: calc(32 / 1920 * 100vw);
-    margin-bottom: calc(16 / 1920 * 100vw);
+    margin-top: calc(8 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(41 / 1920 * 100vw);
     position: relative;
     color: #15E9C3FF;
 
@@ -550,22 +574,17 @@ body {
     text-align: center;
   }
 
-  #no-team-message {
-    height: calc(154 / 1920 * 100vw);
-    text-align: center;
-  }
 
   #no-team-message {
-    margin-top: calc(32 / 1920 * 100vw);
-    padding-top: calc(27 / 1920 * 100vw);
+    margin-top: calc(16 / 1920 * 100vw);
+    padding-top: calc(16 / 1920 * 100vw);
   }
 
   button#subbut {
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
-    margin-top: calc(16 / 1920 * 100vw);
+    font-size: calc(41 / 1920 * 100vw);
+    width: calc(726 / 1920 * 100vw);
+    height: calc(97 / 1920 * 100vw);
     color: #15E9C3FF;
 
     background-color: rgba(21, 233, 195, 0.28);
@@ -580,8 +599,8 @@ body {
   }
 
   #team-name-container {
-    height: calc(154 / 1920 * 100vw);
-    margin-bottom: calc(32 / 1920 * 100vw);
+    height: calc(97 / 1920 * 100vw);
+    margin-bottom: calc(24 / 1920 * 100vw);
   }
 
   .footer {
@@ -1079,7 +1098,7 @@ body {
     text-align: center;
   }
 
-  
+
 
   select#track option, select#participation-format option, select#has-team option {
     font-family: 'Gilroy', sans-serif;
