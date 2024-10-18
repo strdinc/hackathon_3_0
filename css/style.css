@@ -1136,6 +1136,8 @@ body {
   }
 
 
+  
+
   select#track, select#participation-format, select#has-team {
     appearance: none;
     width: calc(776 / 1920 * 100vw);
@@ -1145,14 +1147,13 @@ body {
     border-radius: calc(39 / 1920 * 100vw);
     border-color: #15e9c3;
     border-width: calc(5 / 1920 * 100vw);
-    margin: auto;
     position: absolute;
     top: calc(-5 / 1920 * 100vw);
     right: calc(-5 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     font-weight: 550;
-    padding: calc(66 / 1920 * 100vw);
+    text-align: center;
     cursor: pointer;
   }
 
