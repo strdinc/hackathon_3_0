@@ -82,6 +82,7 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 20/9) {
   .container {
     width: calc(1920 / 1920 * 100vw);
+    display: flex;
   }
 
 
@@ -129,53 +130,88 @@ body {
 
   .title{
     width: calc(837 / 1920 * 100vw);
-    height: auto;
-    position: absolute;
+    height: calc(394 / 1920 * 100vw);
     top: calc(300 / 1920 * 100vw);
     left: calc(909 / 1920 * 100vw);
-  }
-
-  .title_title_png {
-    width: calc(837 / 1920 * 100vw);
-    height: auto;
-  }
-
-  .button_title {
-    width: calc(818 / 1920 * 100vw);
-    height: calc(130 / 1920 * 100vw);
     position: absolute;
-    top: calc(772 / 1920 * 100vw);
-    left: calc(912 / 1920 * 100vw);
+  }
+
+  .title_date {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(58 / 1920 * 100vw);
+    color: #ffffff;
+  }
+
+  .title_title {
+    position: absolute;
+    top: 0;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 650;
+    font-size: calc(221 / 1920 * 100vw);
+    color: #ffffff;
+  }
+
+  .title_ID {
+    width: calc(350 / 1920 * 100vw);
+    height: auto;
+
+    position: absolute;
+    top: calc(235 / 1920 * 100vw);
+    right: 0;
+
+    text-align: right;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(83 / 1920 * 100vw);
+    line-height: calc(83 / 1920 * 100vw);
+    color: #ffffff;
   }
 
   .button {
-    width: calc(818 / 1920 * 100vw);
+    width: calc(837 / 1920 * 100vw);
     height: calc(130 / 1920 * 100vw);
-    border: none;
-    border-radius: calc(90 / 1920 * 100vw);
+
+    position: absolute;
+    top: calc(857 / 1920 * 100vw);
+    left: calc(912 / 1920 * 100vw);
+
+    border: calc(5 / 1920 * 100vw) solid #5A00CD;
+    border-radius: calc(39 / 1920 * 100vw);
+    background-color: #3C0F74;
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(66 / 1920 * 100vw);
+    color: #ffffff;
+
     cursor: pointer;
   }
 
-  .button_first_img {
-    width: calc(818 / 1920 * 100vw);
-    height: auto;
-  }
-
-  .description_rec {
+  .description {
     width: calc(1007 / 1920 * 100vw);
-    height: auto;
+    height: calc(317 / 1920 * 100vw);
+
     position: absolute;
     top: calc(1144 / 1920 * 100vw);
     left: calc(832 / 1920 * 100vw);
-  }
 
-  .description_rec_png {
-    width: calc(1007 / 1920 * 100vw);
-    height: auto;
+    border: calc(5 / 1920 * 100vw) solid #155DE9;
+    border-radius: calc(51 / 1920 * 100vw);
+    background-color: transparent;
+
+    padding-top: calc(57 / 1920 * 100vw);
+    padding-left: calc(72 / 1920 * 100vw);
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(59 / 1920 * 100vw);
+    line-height: calc(63 / 1920 * 100vw);
+    color: #ffffff;
   }
 
   .participation {
-    width: calc(1102 / 1920 * 100vw);
+    width: auto;
     height: auto;
     position: absolute;
     top: calc(1615 / 1920 * 100vw);
@@ -183,74 +219,97 @@ body {
   }
 
   .participation_title {
-    width: calc(838 / 1920 * 100vw);
-    height: auto;
     position: absolute;
-    top: calc(0 / 1920 * 100vw);
-    left: calc(56 / 1920 * 100vw);
+    top: calc(-21 / 1920 * 100vw);
+    left: 0;
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(223 / 1920 * 100vw);
+    color: #ffffff;
   }
 
   .participation_text {
     width: calc(693 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(292 / 1920 * 100vw);
-    left: calc(36 / 1920 * 100vw);
+    top: calc(265 / 1920 * 100vw);
+    left: 0;
   }
 
   .participation_analytics, .participation_back_end, .participation_testing,
   .participation_front_end,  .participation_UXUI, .participation_project {
     height: calc(112 / 1920 * 100vw);
-    width: auto;
+
+    position: absolute;
+
+    border: calc(5 / 1920 * 100vw) solid #21E21D;
+    border-radius: calc(90 / 1920 * 100vw);
+    background-color: transparent;
+
+    padding-top: calc(18 / 1920 * 100vw);
+    padding-left: calc(38 / 1920 * 100vw);
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 350;
+    font-size: calc(50 / 1920 * 100vw);
+    color: #ffffff;
+  }
+
+  .participation_analytics, .participation_front_end {
+    top: calc(494 / 1920 * 100vw);
+  }
+
+  .participation_project, .participation_back_end {
+    top: calc(647 / 1920 * 100vw);
+  }
+
+  .participation_testing, .participation_UXUI {
+    top: calc(799 / 1920 * 100vw);
   }
 
   .participation_analytics {
-    position: absolute;
-    top: calc(545 / 1920 * 100vw);
-    left: calc(36 / 1920 * 100vw);
-  }
+    width: calc(334 / 1920 * 100vw);
 
-  .participation_back_end {
-    position: absolute;
-    top: calc(690 / 1920 * 100vw);
-    left: calc(633 / 1920 * 100vw);
-  }
-
-  .participation_testing {
-    position: absolute;
-    top: calc(841 / 1920 * 100vw);
-    left: calc(36 / 1920 * 100vw);
+    left: 0;
   }
 
   .participation_front_end {
-    position: absolute;
-    top: calc(546 / 1920 * 100vw);
-    left: calc(394 / 1920 * 100vw);
-  }
+    width: calc(310 / 1920 * 100vw);
 
-  .participation_UXUI {
-    position: absolute;
-    top: calc(845 / 1920 * 100vw);
-    left: calc(451 / 1920 * 100vw);
+    left: calc(371 / 1920 * 100vw);
   }
 
   .participation_project {
-    position: absolute;
-    top: calc(689 / 1920 * 100vw);
-    left: calc(92 / 1920 * 100vw);
+    width: calc(547 / 1920 * 100vw);
+
+    left: calc(56 / 1920 * 100vw);
   }
 
-  .ring_light_blue {
+  .participation_back_end {
+    width: calc(312 / 1920 * 100vw);
+
+    left: calc(643 / 1920 * 100vw);
+  }
+
+  .participation_testing {
+    width: calc(414 / 1920 * 100vw);
+
+    left: 0;
+  }
+
+  .participation_UXUI {
+    width: calc(396 / 1920 * 100vw);
+
+    left: calc(454 / 1920 * 100vw);
+  }
+
+  .ring {
     width: calc(2183 / 1920 * 100vw);
     height: auto;
     position: relative;
     top: calc(1243 / 1920 * 100vw);
-    right: calc(-1048 / 1920 * 100vw);
-  }
-
-  .ring_light_blue_png {
-    width: calc(2183 / 1920 * 100vw);
-    height: auto;
+    left: calc(785 / 1920 * 100vw);
   }
 
   .schedule {
@@ -314,12 +373,34 @@ body {
     left: calc(1137 / 1920 * 100vw);
   }
 
+  /* top -30  для title */
+
+  .schedule_registration_title, .schedule_opening_title, .schedule_competition_title,
+  .schedule_competitions_pupils_title, .schedule_competitions_students_title,
+  .schedule_results_pupils_title, .schedule_results_students_title {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(86 / 1920 * 100vw);
+    color: #ffffff;
+    position: absolute;
+  }
+
   .schedule_registration {
     width: calc(678 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(37 / 1920 * 100vw);
     left: calc(201 / 1920 * 100vw);
+  }
+
+  .schedule_registration_png {
+    width: calc(678 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .schedule_registration_title {
+    top: calc(101 / 1920 * 100vw);
+    left: calc(105 / 1920 * 100vw);
   }
 
   .schedule_opening {
@@ -330,12 +411,27 @@ body {
     left: calc(919 / 1920 * 100vw);
   }
 
+  .schedule_opening_png {
+    width: calc(617 / 1920 * 100vw);
+    height: auto;
+  }
+
+  .schedule_opening_title {
+    top: calc(92 / 1920 * 100vw);
+    left: calc(111 / 1920 * 100vw);
+  }
+
   .schedule_competition {
     width: calc(756 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(556 / 1920 * 100vw);
     left: calc(167 / 1920 * 100vw);
+  }
+
+  .schedule_competition_png {
+    width: calc(756 / 1920 * 100vw);
+    height: auto;
   }
 
   .schedule_competitions_pupils {
@@ -346,12 +442,22 @@ body {
     left: calc(82 / 1920 * 100vw);
   }
 
+  .schedule_competitions_pupils_png {
+    width: calc(617 / 1920 * 100vw);
+    height: auto;
+  }
+
   .schedule_competitions_students {
     width: calc(756 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(834 / 1920 * 100vw);
     left: calc(927 / 1920 * 100vw);
+  }
+
+  .schedule_competitions_students_png {
+    width: calc(756 / 1920 * 100vw);
+    height: auto;
   }
 
   .schedule_results_pupils {
@@ -362,12 +468,22 @@ body {
     left: calc(121 / 1920 * 100vw);
   }
 
+  .schedule_results_pupils_png {
+    width: calc(617 / 1920 * 100vw);
+    height: auto;
+  }
+
   .schedule_results_students {
     width: calc(617 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(1467 / 1920 * 100vw);
     left: calc(950 / 1920 * 100vw);
+  }
+
+  .schedule_results_students_png {
+    width: calc(617 / 1920 * 100vw);
+    height: auto;
   }
 
   .ball_orange {
@@ -1136,7 +1252,7 @@ body {
   }
 
 
-  
+
 
   select#track, select#participation-format, select#has-team {
     appearance: none;
