@@ -1137,7 +1137,7 @@ body {
   .schedule_competitions_pupils_title, .schedule_competitions_students_title,
   .schedule_results_pupils_title, .schedule_results_students_title {
     font-family: 'Gilroy', sans-serif;
-    font-weight: 550;
+    font-weight: 450;
     font-size: calc(96 / 1920 * 100vw);
     color: #ffffff;
     position: absolute;
