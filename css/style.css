@@ -877,7 +877,7 @@ body {
     width: calc(1247 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    right: 0;
+    left: calc(812 / 1920 * 100vw);
     top: 0;
   }
 
