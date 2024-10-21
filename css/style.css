@@ -110,13 +110,13 @@ body {
 
 @keyframes float-complex {
   0% {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
   50% {
-    transform: translateY(1px);
+    transform: translateY(2px);
   }
   100% {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
 }
 
