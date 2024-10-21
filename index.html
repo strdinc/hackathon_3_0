@@ -128,6 +128,7 @@
     <img src="images/background/cell_purple.png" alt="фиолетовая изогнутая клетка" class="cell_purple scroll-anim-y">
     <img src="images/background/mobile/cell_purple.png" alt="фиолетовая изогнутая клетка" class="cell_purple_mobile scroll-anim-y">
     <p class="prize float-complex">призы</p>
+    <div class="pixel" id="pixel"></div>
     <div class="application" id="application">
       <img src="images/application/application_title.png" alt="заявка участника" class="application_title_png float-complex">
       <div class="application_form">
@@ -211,7 +212,7 @@
 
 <script>
   document.getElementById('participateButton').addEventListener('click', function() {
-    document.getElementById('application').scrollIntoView({ behavior: 'smooth' });
+    document.getElementById('pixel').scrollIntoView({ behavior: 'smooth' });
   });
 </script>
 
