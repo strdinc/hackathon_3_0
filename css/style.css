@@ -108,26 +108,32 @@ body {
   transition: transform 0.05s;
 }
 
-@keyframes float-complex {
-  0% {
-    transform: translateY(-2px);
-  }
-  50% {
-    transform: translateY(2px);
-  }
-  100% {
-    transform: translateY(-2px);
-  }
-}
-
-.float-complex {
-  position: relative;
-  animation: float-complex 2s ease-in-out infinite;
-  display: inline-block;
-}
 
 /* Стиль для мониторов с соотношением 16:9 */
 @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 20/9) {
+
+  @keyframes float-complex {
+    0% {
+      transform: translateY(-2px);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+    100% {
+      transform: translateY(-2px);
+    }
+  }
+
+  .float-complex {
+    position: relative;
+    animation: none;
+    display: inline-block;
+  }
+
+  .float-complex.animate {
+    animation: float-complex 2s ease-in-out infinite;
+  }
+
   .container {
     width: calc(1920 / 1920 * 100vw);
     display: flex;
@@ -857,6 +863,29 @@ body {
 
 /* Стиль для мониторов с соотношением 21:9 */
 @media screen and (min-aspect-ratio: 21/9) {
+
+  @keyframes float-complex {
+    0% {
+      transform: translateY(-2px);
+    }
+    50% {
+      transform: translateY(2px);
+    }
+    100% {
+      transform: translateY(-2px);
+    }
+  }
+
+  .float-complex {
+    position: relative;
+    animation: none;
+    display: inline-block;
+  }
+
+  .float-complex.animate {
+    animation: float-complex 2s ease-in-out infinite;
+  }
+
   .container {
     width: calc(3440 / 3440 * 100vw);
     display: flex;
@@ -1540,6 +1569,29 @@ body {
 }
 /* Стиль для телефонов (например, экраны меньше 768px) */
 @media screen and (max-aspect-ratio: 1/1) {
+
+  @keyframes float-complex {
+    0% {
+      transform: translateY(-4px);
+    }
+    50% {
+      transform: translateY(4px);
+    }
+    100% {
+      transform: translateY(-4px);
+    }
+  }
+
+  .float-complex {
+    position: relative;
+    animation: none;
+    display: inline-block;
+  }
+
+  .float-complex.animate {
+    animation: float-complex 2s ease-in-out infinite;
+  }
+
   .container {
     width: calc(1920 / 1920 * 100vw);
 
