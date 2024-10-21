@@ -2126,6 +2126,7 @@ body {
       border-radius: calc(39 / 1920 * 100vw);
       border-color: #15E9C3;
       vertical-align: center;
+      margin-top: calc(16 / 1920 * 100vw);;
       padding-left: calc(106 / 1920 * 100vw);
       font-family: 'Gilroy', sans-serif;
       font-size: calc(66 / 1920 * 100vw);
@@ -2218,7 +2219,7 @@ body {
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
     margin-top: calc(32 / 1920 * 100vw);
-    margin-bottom: calc(32 / 1920 * 100vw);
+    margin-bottom: calc(16 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     position: relative;
