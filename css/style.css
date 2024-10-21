@@ -141,37 +141,7 @@ body {
     position: absolute;
   }
 
-  .title_date {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 550;
-    font-size: calc(58 / 1920 * 100vw);
-    color: #ffffff;
-  }
 
-  .title_title {
-    position: absolute;
-    top: 0;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 650;
-    font-size: calc(221 / 1920 * 100vw);
-    color: #ffffff;
-  }
-
-  .title_ID {
-    width: calc(350 / 1920 * 100vw);
-    height: auto;
-
-    position: absolute;
-    top: calc(235 / 1920 * 100vw);
-    right: 0;
-
-    text-align: right;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 550;
-    font-size: calc(83 / 1920 * 100vw);
-    line-height: calc(83 / 1920 * 100vw);
-    color: #ffffff;
-  }
 
   .button {
     width: calc(837 / 1920 * 100vw);
@@ -893,40 +863,9 @@ body {
     width: calc(1742 / 1920 * 100vw);
     height: calc(820 / 1920 * 100vw);
     top: calc(1263 / 1920 * 100vw);
-    left: calc(81 / 1920 * 100vw);
+    left: calc(89 / 1920 * 100vw);
     position: absolute;
-  }
-
-  .title_date {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 550;
-    font-size: calc(120 / 1920 * 100vw);
-    color: #ffffff;
-  }
-
-  .title_title {
-    position: absolute;
-    top: 0;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 650;
-    font-size: calc(460 / 1920 * 100vw);
-    color: #ffffff;
-  }
-
-  .title_ID {
-    width: calc(704 / 1920 * 100vw);
-    height: auto;
-
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-    text-align: right;
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 550;
-    font-size: calc(172 / 1920 * 100vw);
-    line-height: calc(172 / 1920 * 100vw);
-    color: #ffffff;
+    margin: auto;
   }
 
   .button {
