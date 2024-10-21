@@ -5,70 +5,70 @@
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyThin', sans-serif;
   src: url('fonts/Gilroy-Thin.woff2') format('woff2'),
   url("fonts/Gilroy-Thin.woff") format("woff");
   font-weight: 100;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyUltraLight', sans-serif;
   src: url('fonts/Gilroy-UltraLight.woff2') format('woff2'),
   url('fonts/Gilroy-UltraLight.woff') format('woff');
   font-weight: 200;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyLight', sans-serif;
   src: url('fonts/Gilroy-Light.woff2') format('woff2'),
   url('fonts/Gilroy-Light.woff') format('woff');
   font-weight: 250;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyRegular', sans-serif;
   src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
   url('fonts/Gilroy-Regular.woff') format('woff');
   font-weight: 350;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyMedium', sans-serif;
   src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
   url('fonts/Gilroy-Medium.woff') format('woff');
   font-weight: 450;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroySemibold', sans-serif;
   src: url('fonts/Gilroy-Semibold.woff2') format('woff2'),
   url('fonts/Gilroy-Semibold.woff') format('woff');
   font-weight: 550;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyBold', sans-serif;
   src: url('fonts/Gilroy-Bold.woff2') format('woff2'),
   url('fonts/Gilroy-Bold.woff') format('woff');
   font-weight: 650;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyExtrabold', sans-serif;
   src: url('fonts/Gilroy-Extrabold.woff2') format('woff2'),
   url('fonts/Gilroy-Extrabold.woff') format('woff');
   font-weight: 750;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyBlack', sans-serif;
   src: url('fonts/Gilroy-Black.woff2') format('woff2'),
   url('fonts/Gilroy-Black.woff') format('woff');
   font-weight: 850;
 }
 
 @font-face {
-  font-family: 'Gilroy', sans-serif;
+  font-family: 'GilroyHeavy', sans-serif;
   src: url('fonts/Gilroy-Heavy.woff2') format('woff2'),
   url('fonts/Gilroy-Heavy.woff') format('woff');
   font-weight: 950;
@@ -1653,7 +1653,7 @@ body {
     border-radius: calc(83 / 1920 * 100vw);
     background-color: #3C0F74;
 
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
     font-weight: 550;
     font-size: calc(140 / 1920 * 100vw);
     color: #ffffff;
@@ -1676,7 +1676,7 @@ body {
     padding-top: calc(96 / 1920 * 100vw);
     padding-left: calc(102 / 1920 * 100vw);
 
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroyMedium', sans-serif;
     font-weight: 450;
     font-size: calc(102 / 1920 * 100vw);
     line-height: calc(109 / 1920 * 100vw);
@@ -1696,7 +1696,7 @@ body {
     top: calc(-21 / 1920 * 100vw);
     left: 0;
 
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroyMedium', sans-serif;
     font-weight: 450;
     font-size: calc(459 / 1920 * 100vw);
     color: #ffffff;
@@ -1723,7 +1723,7 @@ body {
     padding-top: calc(35 / 1920 * 100vw);
     padding-left: calc(74 / 1920 * 100vw);
 
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroyRegular', sans-serif;
     font-weight: 350;
     font-size: calc(99 / 1920 * 100vw);
     color: #ffffff;
@@ -1848,7 +1848,7 @@ body {
   .schedule_registration_title, .schedule_opening_title, .schedule_competition_title,
   .schedule_competitions_pupils_title, .schedule_competitions_students_title,
   .schedule_results_pupils_title, .schedule_results_students_title {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
     font-weight: 400;
     font-size: calc(96 / 1920 * 100vw);
     color: #ffffff;
@@ -1861,7 +1861,7 @@ body {
     list-style: none;
     line-height: calc(76 / 1920 * 100vw);
 
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroyRegular', sans-serif;
     font-weight: 300;
     font-size: calc(72 / 1920 * 100vw);
     color: #ffffff;
@@ -2032,7 +2032,7 @@ body {
     top: calc(9026 / 1920 * 100vw);
     left: calc(225 / 1920 * 100vw);
 
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
     font-weight: 550;
     font-size: calc(322 / 1920 * 100vw);
     color: #ffffff;
@@ -2054,7 +2054,7 @@ body {
     top: calc(10650 / 1920 * 100vw);
     left: calc(830 / 1920 * 100vw);
 
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
     font-weight: 550;
     font-size: calc(322 / 1920 * 100vw);
     color: #ffffff;
@@ -2121,7 +2121,7 @@ body {
     padding-left: calc(106 / 1920 * 100vw);
     margin-top: calc(16 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     box-sizing: border-box;
     font-weight: 550;
@@ -2138,7 +2138,7 @@ body {
       vertical-align: center;
       margin-top: calc(16 / 1920 * 100vw);;
       padding-left: calc(106 / 1920 * 100vw);
-      font-family: 'Gilroy', sans-serif;
+      font-family: 'GilroySemibold', sans-serif;
       font-size: calc(66 / 1920 * 100vw);
       box-sizing: border-box;
       font-weight: 550;
@@ -2200,7 +2200,7 @@ body {
     position: absolute;
     top: calc(-5 / 1920 * 100vw);
     right: calc(-5 / 1920 * 100vw);
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     font-weight: 550;
     cursor: pointer;
@@ -2230,7 +2230,8 @@ body {
     border-radius: calc(39 / 1920 * 100vw);
     margin-top: calc(32 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
+    font-weight: 550;
     font-size: calc(66 / 1920 * 100vw);
     position: relative;
     color: #15E9C3FF;
@@ -2252,7 +2253,7 @@ body {
   }
 
   button#subbut {
-    font-family: 'Gilroy', sans-serif;
+    font-family: 'GilroySemibold', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
