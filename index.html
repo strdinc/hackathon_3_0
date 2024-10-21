@@ -35,7 +35,7 @@
     <img src="images/background/mobile/ball_blue.png" alt="ball_blue" class="ball_blue_mobile_png scroll-anim-y">
     <img src="images/other/title.png" alt="title" class="title float-complex">
     <img src="images/background/mobile/ring.png" alt="ring" class="ring_mobile scroll-anim-y">
-    <button class="button">участвовать</button>
+    <button class="button" type="button" id="participateButton">участвовать</button>
     <div class="description">
       соревнование, на котором
       специалисты создают решения
@@ -128,7 +128,7 @@
     <img src="images/background/cell_purple.png" alt="фиолетовая изогнутая клетка" class="cell_purple scroll-anim-y">
     <img src="images/background/mobile/cell_purple.png" alt="фиолетовая изогнутая клетка" class="cell_purple_mobile scroll-anim-y">
     <p class="prize float-complex">призы</p>
-    <div class="application">
+    <div class="application" id="application">
       <img src="images/application/application_title.png" alt="заявка участника" class="application_title_png float-complex">
       <div class="application_form">
 
@@ -208,6 +208,13 @@
 
 <script src="js/teams.js"></script>
 <script src="js/anim.js"></script>
+
+<script>
+  document.getElementById('participateButton').addEventListener('click', function() {
+    document.getElementById('application').scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
+
 
 </body>
 

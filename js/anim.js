@@ -18,7 +18,7 @@ window.addEventListener('scroll', function() {
   animX.forEach(function(anim) {
     const animTop = anim.getBoundingClientRect().top;
 
-    if (animTop < windowHeight / 2) {  
+    if (animTop < windowHeight / 2) {
       const speed = 0.12;
       const translateX = (scrollPosition - anim.offsetTop + windowHeight / 2) * speed;
       anim.style.transform = `translateX(${translateX}px)`;
