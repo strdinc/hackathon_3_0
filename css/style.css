@@ -108,6 +108,24 @@ body {
   transition: transform 0.05s;
 }
 
+@keyframes float-complex {
+  0% {
+    transform: translateY(-1px);
+  }
+  50% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(-1px);
+  }
+}
+
+.float-complex {
+  position: relative;
+  animation: float-complex 2s ease-in-out infinite;
+  display: inline-block;
+}
+
 /* Стиль для мониторов с соотношением 16:9 */
 @media screen and (min-aspect-ratio: 1/1) and (max-aspect-ratio: 20/9) {
   .container {
@@ -831,11 +849,676 @@ body {
 /* Стиль для мониторов с соотношением 21:9 */
 @media screen and (min-aspect-ratio: 21/9) {
   .container {
-    width: 80%;
-    max-width: 1400px;
-    flex-direction: row;
-    justify-content: center; /* Выравниваем элементы по центру */
+    width: calc(3440 / 3440 * 100vw);
+    display: flex;
   }
+
+  .cross_mobile_img, .ball_blue_mobile_png,
+  .ball_orange_mobile,
+  .cell_purple_mobile,
+  .ring_mobile,
+  .schedule_line_1, .schedule_line_2,
+  .schedule_line_3_left, .schedule_line_3_right,
+  .schedule_line_4_left, .schedule_line_4_right {
+    display: none;
+  }
+
+  .cross_img {
+    width: calc(1285 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(-390 / 3440 * 100vw);
+    left: calc(1572 / 3440 * 100vw);
+  }
+
+  .ball_blue_png {
+    width: calc(1323 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(192 / 3440 * 100vw);
+    left: calc(249 / 3440 * 100vw);
+  }
+
+  .title {
+    width: calc(837 / 3440 * 100vw);
+    height: calc(394 / 3440 * 100vw);
+    top: calc(422 / 3440 * 100vw);
+    left: calc(1669 / 3440 * 100vw);
+    position: absolute;
+  }
+
+  .button {
+    width: calc(818 / 3440 * 100vw);
+    height: calc(135 / 3440 * 100vw);
+    position: absolute;
+    top: calc(857 / 3440 * 100vw);
+    left: calc(1672 / 3440 * 100vw);
+    border: calc(5 / 3440 * 100vw) solid #5A00CD;
+    border-radius: calc(39 / 3440 * 100vw);
+    background-color: #3C0F74;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(66 / 3440 * 100vw);
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  .description {
+    width: calc(1007 / 3440 * 100vw);
+    height: calc(317 / 3440 * 100vw);
+    position: absolute;
+    top: calc(1144 / 3440 * 100vw);
+    left: calc(1592 / 3440 * 100vw);
+    border: calc(5 / 3440 * 100vw) solid #155DE9;
+    border-radius: calc(51 / 3440 * 100vw);
+    background-color: transparent;
+    padding-top: calc(57 / 3440 * 100vw);
+    padding-left: calc(72 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(59 / 3440 * 100vw);
+    line-height: calc(63 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .participation {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: calc(1666 / 3440 * 100vw);
+    left: calc(826 / 3440 * 100vw);
+  }
+
+  .participation_title {
+    position: absolute;
+    top: calc(-21 / 3440 * 100vw);
+    left: 0;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(223 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .participation_text {
+    width: calc(693 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(265 / 3440 * 100vw);
+    left: 0;
+  }
+
+  .participation_analytics, .participation_back_end, .participation_testing,
+  .participation_front_end, .participation_UXUI, .participation_project {
+    height: calc(112 / 3440 * 100vw);
+    position: absolute;
+    border: calc(5 / 3440 * 100vw) solid #21E21D;
+    border-radius: calc(90 / 3440 * 100vw);
+    background-color: transparent;
+    padding-top: calc(18 / 3440 * 100vw);
+    padding-left: calc(38 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 350;
+    font-size: calc(50 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .participation_analytics, .participation_front_end {
+    top: calc(494 / 3440 * 100vw);
+  }
+
+  .participation_project, .participation_back_end {
+    top: calc(647 / 3440 * 100vw);
+  }
+
+  .participation_testing, .participation_UXUI {
+    top: calc(799 / 3440 * 100vw);
+  }
+
+  .participation_analytics {
+    width: calc(334 / 3440 * 100vw);
+    left: 0;
+  }
+
+  .participation_front_end {
+    width: calc(310 / 3440 * 100vw);
+    left: calc(371 / 3440 * 100vw);
+  }
+
+  .participation_project {
+    width: calc(547 / 3440 * 100vw);
+    left: calc(56 / 3440 * 100vw);
+  }
+
+  .participation_back_end {
+    width: calc(312 / 3440 * 100vw);
+    left: calc(643 / 3440 * 100vw);
+  }
+
+  .participation_testing {
+    width: calc(414 / 3440 * 100vw);
+    left: 0;
+  }
+
+  .participation_UXUI {
+    width: calc(396 / 3440 * 100vw);
+    left: calc(454 / 3440 * 100vw);
+  }
+
+  .ring {
+    width: calc(2183 / 3440 * 100vw);
+    height: auto;
+    position: relative;
+    top: calc(1243 / 3440 * 100vw);
+    left: calc(1545 / 3440 * 100vw);
+  }
+
+  .schedule {
+    width: calc(1744 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(2765 / 3440 * 100vw);
+    left: calc(848 / 3440 * 100vw);
+  }
+
+  .schedule_line_1, .schedule_line_2, .schedule_line_3_left,
+  .schedule_line_3_right, .schedule_line_4_left, .schedule_line_4_right {
+    display: none;
+  }
+
+  .schedule_line_1_desk {
+    width: calc(379 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(81 / 3440 * 100vw);
+    left: calc(773 / 3440 * 100vw);
+  }
+
+  .schedule_line_2_desk {
+    width: calc(587 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(395 / 3440 * 100vw);
+    left: calc(438 / 3440 * 100vw);
+  }
+
+  .schedule_line_3_left_desk {
+    width: calc(417 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(821 / 3440 * 100vw);
+    left: calc(447 / 3440 * 100vw);
+  }
+
+  .schedule_line_3_right_desk {
+    width: calc(470 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(627 / 3440 * 100vw);
+    left: calc(575 / 3440 * 100vw);
+  }
+
+  .schedule_line_4_left_desk {
+    width: calc(197 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1358 / 3440 * 100vw);
+    left: calc(210 / 3440 * 100vw);
+  }
+
+  .schedule_line_4_right_desk {
+    width: calc(507 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1042 / 3440 * 100vw);
+    left: calc(1137 / 3440 * 100vw);
+  }
+
+  /* top -30 для title */
+
+  .schedule_registration_title, .schedule_opening_title, .schedule_competition_title,
+  .schedule_competitions_pupils_title, .schedule_competitions_students_title,
+  .schedule_results_pupils_title, .schedule_results_students_title {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(86 / 3440 * 100vw);
+    color: #ffffff;
+    position: absolute;
+  }
+
+  .schedule_registration_dates, .schedule_opening_dates,
+  .schedule_competitions_pupils_dates, .schedule_competitions_students_dates,
+  .schedule_results_pupils_dates, .schedule_results_students_dates {
+    list-style: none;
+    line-height: calc(70 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 350;
+    font-size: calc(66 / 3440 * 100vw);
+    color: #ffffff;
+    position: absolute;
+  }
+
+  .schedule_registration {
+    width: calc(678 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(37 / 3440 * 100vw);
+    left: calc(201 / 3440 * 100vw);
+  }
+
+  .schedule_registration_png {
+    width: calc(678 / 3440 * 100vw);
+    height: auto;
+  }
+
+  .schedule_registration_title {
+    top: calc(101 / 3440 * 100vw);
+    left: calc(105 / 3440 * 100vw);
+  }
+
+  .schedule_registration_dates {
+    top: calc(219 / 3440 * 100vw);
+    left: calc(105 / 3440 * 100vw);
+  }
+
+  .schedule_opening {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(250 / 3440 * 100vw);
+    left: calc(919 / 3440 * 100vw);
+  }
+
+  .schedule_opening_png {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+  }
+
+  .schedule_opening_title {
+    top: calc(92 / 3440 * 100vw);
+    left: calc(111 / 3440 * 100vw);
+  }
+
+  .schedule_opening_dates {
+    top: calc(209 / 3440 * 100vw);
+    left: calc(111 / 3440 * 100vw);
+  }
+
+  .schedule_competition {
+    width: calc(756 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(556 / 3440 * 100vw);
+    left: calc(167 / 3440 * 100vw);
+  }
+
+  .schedule_competition_png {
+    width: calc(756 / 3440 * 100vw);
+    height: auto;
+  }
+
+  .schedule_competition_title {
+    top: calc(146 / 3440 * 100vw);
+    left: calc(75 / 3440 * 100vw);
+  }
+
+  .schedule_competitions_pupils {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1041 / 3440 * 100vw);
+    left: calc(82 / 3440 * 100vw);
+  }
+
+  .schedule_competitions_pupils_png {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+  }
+
+  .schedule_competitions_pupils_title {
+    top: calc(149 / 3440 * 100vw);
+    left: calc(100 / 3440 * 100vw);
+  }
+
+  .schedule_competitions_pupils_dates {
+    top: calc(267 / 3440 * 100vw);
+    left: calc(100 / 3440 * 100vw);
+  }
+
+  .schedule_competitions_students {
+    width: calc(756 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(834 / 3440 * 100vw);
+    left: calc(927 / 3440 * 100vw);
+  }
+
+  .schedule_competitions_students_png {
+    width: calc(756 / 3440 * 100vw);
+    height: auto;
+  }
+
+  .schedule_competitions_students_title {
+    top: calc(107 / 3440 * 100vw);
+    left: calc(140 / 3440 * 100vw);
+  }
+
+  .schedule_competitions_students_dates {
+    top: calc(227 / 3440 * 100vw);
+    left: calc(140 / 3440 * 100vw);
+  }
+
+  .schedule_results_pupils {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1589 / 3440 * 100vw);
+    left: calc(121 / 3440 * 100vw);
+  }
+
+  .schedule_results_pupils_png {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+  }
+
+  .schedule_results_pupils_title,
+  .schedule_results_students_title {
+    top: calc(112 / 3440 * 100vw);
+    left: calc(97 / 3440 * 100vw);
+  }
+
+  .schedule_results_pupils_dates,
+  .schedule_results_students_dates {
+    top: calc(230 / 3440 * 100vw);
+    left: calc(97 / 3440 * 100vw);
+  }
+
+  .schedule_results_students {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(1467 / 3440 * 100vw);
+    left: calc(950 / 3440 * 100vw);
+  }
+
+  .schedule_results_students_png {
+    width: calc(617 / 3440 * 100vw);
+    height: auto;
+  }
+
+  .ball_orange {
+    width: calc(1598 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(4989 / 3440 * 100vw);
+    left: calc(213 / 3440 * 100vw);
+  }
+
+  .partners {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: calc(5091 / 3440 * 100vw);
+    left: calc(1455 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(223 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .cell_purple {
+    width: calc(2896 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(5918 / 3440 * 100vw);
+    left: calc(372 / 3440 * 100vw);
+  }
+
+  .prize {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: calc(6607 / 3440 * 100vw);
+    left: calc(873 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(223 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .application {
+    width: calc(1700 / 3440 * 100vw);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(8580 / 3440 * 100vw);
+    left: calc(989 / 3440 * 100vw);
+  }
+
+  .application_title_png {
+    width: calc(1500 / 3440 * 100vw);
+    height: calc(162 / 3440 * 100vw);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .application_form {
+    width: calc(1700 / 3440 * 100vw);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: calc(200 / 3440 * 100vw);
+    left: 0;
+    background-color: transparent;
+    border-radius: calc(39 / 3440 * 100vw);
+  }
+
+  .form-container {
+    width: calc(1700 / 3440 * 100vw);
+    height: auto;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 550;
+  }
+
+  input#fio, input#institution, input#email,
+  input#phone, input#team-name {
+    width: calc(727 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
+    background-color: transparent;
+    border-width: calc(5 / 3440 * 100vw);
+    border-radius: calc(39 / 3440 * 100vw);
+    border-color: #15E9C3;
+    vertical-align: center;
+    padding-left: calc(32 / 3440 * 100vw);
+    margin-top: calc(8 / 3440 * 100vw);
+    margin-bottom: calc(8 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 3440 * 100vw);
+    box-sizing: border-box;
+    font-weight: 550;
+    color: white;
+  }
+
+  input#fio, input#email {
+    margin-right: calc(12 / 3440 * 100vw);
+  }
+
+  input#institution, input#phone {
+    margin-left: calc(12 / 3440 * 100vw);
+  }
+
+  input#fio::placeholder, input#institution::placeholder, input#email::placeholder,
+  input#phone::placeholder, input#team-name::placeholder {
+    color: rgba(21, 233, 195, 0.28);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 3440 * 100vw);
+  }
+
+  .track_container, .part_container {
+    width: calc(727 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
+    background-color: transparent;
+    border: calc(5 / 3440 * 100vw) solid #15E9C3FF;
+    border-radius: calc(39 / 3440 * 100vw);
+    margin-top: calc(8 / 3440 * 100vw);
+    margin-bottom: calc(16 / 3440 * 100vw);
+    position: relative;
+    padding-left: calc(32 / 3440 * 100vw);
+  }
+
+  .track_title, .team_title {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: calc(18 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 3440 * 100vw);
+    color: #15E9C3FF;
+  }
+
+  .part_title {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: calc(21 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(35 / 3440 * 100vw);
+    color: #15E9C3FF;
+  }
+
+  select#track, select#participation-format, select#has-team {
+    appearance: none;
+    width: calc(381 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
+    background-color: #15e9c3;
+    color: #1e1e1e;
+    border-radius: calc(39 / 3440 * 100vw);
+    border-color: #15e9c3;
+    border-width: calc(5 / 3440 * 100vw);
+    position: absolute;
+    top: calc(-5 / 3440 * 100vw);
+    right: calc(-5 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(35 / 3440 * 100vw);
+    font-weight: 550;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  select#track option, select#participation-format option, select#has-team option {
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 3440 * 100vw);
+    font-weight: 550;
+  }
+
+  .team_container {
+    width: calc(727 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
+    background-color: transparent;
+    border: calc(5 / 3440 * 100vw) solid #15E9C3FF;
+    border-radius: calc(39 / 3440 * 100vw);
+    margin-top: calc(8 / 3440 * 100vw);
+    margin-bottom: calc(8 / 3440 * 100vw);
+    position: relative;
+    padding-left: calc(32 / 3440 * 100vw);
+  }
+
+  #team-options {
+    width: calc(726 / 3440 * 100vw);
+    margin-bottom: calc(16 / 3440 * 100vw);
+    margin-top: calc(16 / 3440 * 100vw);
+  }
+
+  #no-team-message {
+    width: calc(726 / 3440 * 100vw);
+    height: calc(97 / 3440 * 100vw);
+    background-color: transparent;
+    border: calc(5 / 3440 * 100vw) solid #15E9C3;
+    border-radius: calc(39 / 3440 * 100vw);
+    margin-top: calc(16 / 3440 * 100vw);
+    padding-top: calc(16 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 3440 * 100vw);
+    position: relative;
+    color: #15E9C3FF;
+    text-align: center;
+  }
+
+  button#subbut {
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 3440 * 100vw);
+    width: calc(726 / 3440 * 100vw);
+    height: calc(97 / 3440 * 100vw);
+    color: #15E9C3FF;
+    background-color: rgba(21, 233, 195, 0.28);
+    border: calc(5 / 3440 * 100vw) solid #15E9C3;
+    border-radius: calc(39 / 3440 * 100vw);
+    cursor: pointer;
+  }
+
+  button#subbut:hover {
+    background-color: #15E9C3FF;
+    color: #1E1E1E;
+  }
+
+  #team-name-container {
+    height: calc(97 / 3440 * 100vw);
+    margin-bottom: calc(24 / 3440 * 100vw);
+  }
+
+  .footer {
+    width: calc(1474 / 3440 * 100vw);
+    height: calc(637 / 3440 * 100vw);
+    position: absolute;
+    top: calc(9800 / 3440 * 100vw);
+    left: calc(983 / 3440 * 100vw);
+  }
+
+  .footer_kemsu_logo {
+    width: calc(259 / 3440 * 100vw);
+    height: calc(153 / 3440 * 100vw);
+    position: absolute;
+    top: calc(20 / 3440 * 100vw);
+    left: 0;
+  }
+
+  .footer_ID_logo {
+    width: calc(481 / 3440 * 100vw);
+    height: calc(173 / 3440 * 100vw);
+    position: absolute;
+    top: 0;
+    left: calc(333 / 3440 * 100vw);
+  }
+
+  .conditions {
+    width: calc(253 / 3440 * 100vw);
+    height: calc(59 / 3440 * 100vw);
+    position: absolute;
+    top: calc(256 / 3440 * 100vw);
+    left: 0;
+  }
+
+  .privacy_policy {
+    width: calc(713 / 3440 * 100vw);
+    height: calc(59 / 3440 * 100vw);
+    position: absolute;
+    top: calc(256 / 3440 * 100vw);
+    left: calc(333 / 3440 * 100vw);
+  }
+
+  .emailID {
+    width: calc(347 / 3440 * 100vw);
+    height: calc(59 / 3440 * 100vw);
+    position: absolute;
+    top: calc(256 / 3440 * 100vw);
+    left: calc(1124 / 3440 * 100vw);
+  }
+
 }
 /* Стиль для телефонов (например, экраны меньше 768px) */
 @media screen and (max-aspect-ratio: 1/1) {

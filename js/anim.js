@@ -6,9 +6,9 @@ window.addEventListener('scroll', function() {
   const animX = document.querySelectorAll('.scroll-anim-x');
 
   animY.forEach(function(anim) {
-    const animTop = anim.getBoundingClientRect().top; // Позиция верхней грани элемента относительно окна
+    const animTop = anim.getBoundingClientRect().top;
 
-    if (animTop < windowHeight / 2) {  // Если элемент достиг середины экрана
+    if (animTop < windowHeight / 2) {
       const speed = 0.2;
       const translateY = (scrollPosition - anim.offsetTop + windowHeight / 2) * speed;
       anim.style.transform = `translateY(${translateY}px)`;
@@ -16,9 +16,9 @@ window.addEventListener('scroll', function() {
   });
 
   animX.forEach(function(anim) {
-    const animTop = anim.getBoundingClientRect().top; // Позиция верхней грани элемента относительно окна
+    const animTop = anim.getBoundingClientRect().top;
 
-    if (animTop < windowHeight / 2) {  // Если элемент достиг середины экрана
+    if (animTop < windowHeight / 2) {  
       const speed = 0.12;
       const translateX = (scrollPosition - anim.offsetTop + windowHeight / 2) * speed;
       anim.style.transform = `translateX(${translateX}px)`;
@@ -35,3 +35,4 @@ window.addEventListener('scroll', function() {
     anim.style.transform = `translateY(${scrollPosition*speed}px)`;
   });
 });
+
