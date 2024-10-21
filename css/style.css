@@ -88,7 +88,17 @@ body {
   transition: transform 0.05s;
 }
 
-.scroll-animX {
+.scroll-anim-x {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition: transform 0.05s;
+}
+
+.scroll-anim-x-cross {
   position: absolute;
   width: 100%;
   height: auto;
@@ -1244,11 +1254,11 @@ body {
   }
 
   .ball_orange_mobile {
-    width: calc(1398 / 1920 * 100vw);
+    width: calc(2193 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(8779 / 1920 * 100vw);
-    left: 0;
+    left: calc(-791 / 1920 * 100vw);
   }
 
   .partners {
