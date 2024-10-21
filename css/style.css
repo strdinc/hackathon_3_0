@@ -2184,7 +2184,7 @@ body {
     border-radius: calc(39 / 1920 * 100vw);
     border-color: #15e9c3;
     border-width: calc(5 / 1920 * 100vw);
-    padding-left: calc(0 / 1920 * 100vw);
+    margin: auto;
     position: absolute;
     top: calc(-5 / 1920 * 100vw);
     right: calc(-5 / 1920 * 100vw);
