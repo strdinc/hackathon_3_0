@@ -1641,7 +1641,7 @@ body {
   .schedule_line_1_desk, .schedule_line_2_desk,
   .schedule_line_3_left_desk, .schedule_line_3_right_desk,
   .schedule_line_4_left_desk, .schedule_line_4_right_desk,
-  .ring_mobile, .schedule {
+  .ring_mobile, .schedule, .computer_schedule_version {
     display: none;
   }
 
