@@ -5,35 +5,35 @@
 }
 
 @font-face {
-  font-family: 'GilroyRegular', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
   url('fonts/Gilroy-Regular.woff') format('woff');
   font-weight: 350;
 }
 
 @font-face {
-  font-family: 'GilroyMedium', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
   url('fonts/Gilroy-Medium.woff') format('woff');
   font-weight: 450;
 }
 
 @font-face {
-  font-family: 'GilroySemibold', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Semibold.woff2') format('woff2'),
   url('fonts/Gilroy-Semibold.woff') format('woff');
   font-weight: 550;
 }
 
 @font-face {
-  font-family: 'GilroyBold', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Bold.woff2') format('woff2'),
   url('fonts/Gilroy-Bold.woff') format('woff');
   font-weight: 650;
 }
 
 @font-face {
-  font-family: 'GilroyExtrabold', sans-serif;
+  font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Extrabold.woff2') format('woff2'),
   url('fonts/Gilroy-Extrabold.woff') format('woff');
   font-weight: 750;
@@ -161,24 +161,25 @@ body {
   .ring_mobile,
   .schedule_line_1, .schedule_line_2,
   .schedule_line_3_left, .schedule_line_3_right,
-  .schedule_line_4_left, .schedule_line_4_right {
+  .schedule_line_4_left, .schedule_line_4_right, .ring,
+  .mobile_schedule_version{
     display: none;
   }
 
   .cross_img {
-    width: calc(1285 / 1920 * 100vw);
+    width: calc(1569 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(-390 / 1920 * 100vw);
-    left: calc(812 / 1920 * 100vw);
+    top: calc(-249 / 1920 * 100vw);
+    left: calc(-409 / 1920 * 100vw);
   }
 
   .ball_blue_png {
     width: calc(1323 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(192 / 1920 * 100vw);
-    left: calc(-511 / 1920 * 100vw);;
+    top: calc(1540 / 1920 * 100vw);
+    right: calc(-460 / 1920 * 100vw);;
   }
 
   .title{
@@ -333,6 +334,14 @@ body {
     position: relative;
     top: calc(1243 / 1920 * 100vw);
     left: calc(785 / 1920 * 100vw);
+  }
+
+  .computer_schedule_version {
+    width: calc(1673 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(2986 / 1920 * 100vw);
+    left: calc(124 / 1920 * 100vw);
   }
 
   .schedule {
@@ -573,7 +582,7 @@ body {
     width: calc(1598 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(4989 / 1920 * 100vw);
+    top: calc(4400 / 1920 * 100vw);
     left: calc(-547 / 1920 * 100vw);
   }
 
@@ -582,7 +591,7 @@ body {
     height: auto;
 
     position: absolute;
-    top: calc(5091 / 1920 * 100vw);
+    top: calc(4500 / 1920 * 100vw);
     left: calc(695 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
@@ -596,7 +605,7 @@ body {
     width: calc(2896 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(5918 / 1920 * 100vw);
+    top: calc(5500 / 1920 * 100vw);
     left: calc(-388 / 1920 * 100vw);
   }
 
@@ -605,7 +614,7 @@ body {
     height: auto;
 
     position: absolute;
-    top: calc(6607 / 1920 * 100vw);
+    top: calc(6300 / 1920 * 100vw);
     left: calc(113 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
@@ -911,24 +920,25 @@ body {
   .ring_mobile,
   .schedule_line_1, .schedule_line_2,
   .schedule_line_3_left, .schedule_line_3_right,
-  .schedule_line_4_left, .schedule_line_4_right {
+  .schedule_line_4_left, .schedule_line_4_right, .ring,
+  .mobile_schedule_version {
     display: none;
   }
 
   .cross_img {
-    width: calc(1285 / 3440 * 100vw);
+    width: calc(1569 / 3440 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(-390 / 3440 * 100vw);
-    left: calc(1572 / 3440 * 100vw);
+    top: calc(-249 / 3440 * 100vw);
+    left: calc(351 / 3440 * 100vw);
   }
 
   .ball_blue_png {
     width: calc(1323 / 3440 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(192 / 3440 * 100vw);
-    left: calc(249 / 3440 * 100vw);
+    top: calc(1540 / 3440 * 100vw);
+    left: calc(1822 / 3440 * 100vw);
   }
 
   .title {
@@ -1062,6 +1072,14 @@ body {
     position: relative;
     top: calc(1243 / 3440 * 100vw);
     left: calc(1545 / 3440 * 100vw);
+  }
+
+  .computer_schedule_version {
+    width: calc(1673 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(2755 / 3440 * 100vw);
+    left: calc(883 / 3440 * 100vw);
   }
 
   .schedule {
@@ -1301,16 +1319,18 @@ body {
     width: calc(1598 / 3440 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(4989 / 3440 * 100vw);
+    top: calc(4009 / 3440 * 100vw);
     left: calc(213 / 3440 * 100vw);
   }
 
   .partners {
     width: auto;
     height: auto;
+
     position: absolute;
-    top: calc(5091 / 3440 * 100vw);
+    top: calc(4211 / 3440 * 100vw);
     left: calc(1455 / 3440 * 100vw);
+
     font-family: 'Gilroy', sans-serif;
     font-weight: 550;
     font-size: calc(223 / 3440 * 100vw);
@@ -1321,29 +1341,33 @@ body {
     width: calc(2896 / 3440 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(5918 / 3440 * 100vw);
+    top: calc(5000 / 3440 * 100vw);
     left: calc(372 / 3440 * 100vw);
   }
 
   .prize {
     width: auto;
     height: auto;
+
     position: absolute;
-    top: calc(6607 / 3440 * 100vw);
+    top: calc(5800 / 3440 * 100vw);
     left: calc(873 / 3440 * 100vw);
+
     font-family: 'Gilroy', sans-serif;
     font-weight: 550;
     font-size: calc(223 / 3440 * 100vw);
     color: #ffffff;
   }
 
+
+
   .pixel {
     width: 1px;
     height: 1px;
     background: #1E1E1E;
     position: absolute;
-    top: calc(8500 / 1920 * 100vw);
-    left: calc(989 / 1920 * 100vw);
+    top: calc(7650 / 3440 * 100vw);
+    left: calc(989 / 3440 * 100vw);
   }
 
   .application {
@@ -1352,7 +1376,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(8580 / 3440 * 100vw);
+    top: calc(7700 / 3440 * 100vw);
     left: calc(989 / 3440 * 100vw);
   }
 
@@ -1536,7 +1560,7 @@ body {
     width: calc(1474 / 3440 * 100vw);
     height: calc(637 / 3440 * 100vw);
     position: absolute;
-    top: calc(9800 / 3440 * 100vw);
+    top: calc(9000 / 3440 * 100vw);
     left: calc(983 / 3440 * 100vw);
   }
 
@@ -1616,7 +1640,8 @@ body {
   .cell_purple, .ring,
   .schedule_line_1_desk, .schedule_line_2_desk,
   .schedule_line_3_left_desk, .schedule_line_3_right_desk,
-  .schedule_line_4_left_desk, .schedule_line_4_right_desk {
+  .schedule_line_4_left_desk, .schedule_line_4_right_desk,
+  .ring_mobile, .schedule {
     display: none;
   }
 
@@ -1657,7 +1682,7 @@ body {
     border-radius: calc(83 / 1920 * 100vw);
     background-color: #3C0F74;
 
-    font-family: 'GilroySemibold', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 550;
     font-size: calc(140 / 1920 * 100vw);
     color: #ffffff;
@@ -1680,7 +1705,7 @@ body {
     padding-top: calc(96 / 1920 * 100vw);
     padding-left: calc(102 / 1920 * 100vw);
 
-    font-family: 'GilroyMedium', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 450;
     font-size: calc(102 / 1920 * 100vw);
     line-height: calc(109 / 1920 * 100vw);
@@ -1697,10 +1722,10 @@ body {
 
   .participation_title {
     position: absolute;
-    top: calc(-21 / 1920 * 100vw);
+    top: calc(-80 / 1920 * 100vw);
     left: 0;
 
-    font-family: 'GilroyMedium', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 450;
     font-size: calc(459 / 1920 * 100vw);
     color: #ffffff;
@@ -1727,7 +1752,7 @@ body {
     padding-top: calc(35 / 1920 * 100vw);
     padding-left: calc(74 / 1920 * 100vw);
 
-    font-family: 'GilroyRegular', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 350;
     font-size: calc(99 / 1920 * 100vw);
     color: #ffffff;
@@ -1787,6 +1812,14 @@ body {
     position: relative;
     top: calc(2439 / 1920 * 100vw);
     right: 0;
+  }
+
+  .mobile_schedule_version {
+    width: calc(1632 / 1920 * 100vw);
+    height: calc(2652 / 1920 * 100vw);
+    position: absolute;
+    top: calc(6550 / 1920 * 100vw);
+    left: calc(93 / 1920 * 100vw);
   }
 
   .schedule {
@@ -1852,8 +1885,8 @@ body {
   .schedule_registration_title, .schedule_opening_title, .schedule_competition_title,
   .schedule_competitions_pupils_title, .schedule_competitions_students_title,
   .schedule_results_pupils_title, .schedule_results_students_title {
-    font-family: 'GilroySemibold', sans-serif;
-    font-weight: 400;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
     font-size: calc(96 / 1920 * 100vw);
     color: #ffffff;
     position: absolute;
@@ -1865,7 +1898,7 @@ body {
     list-style: none;
     line-height: calc(76 / 1920 * 100vw);
 
-    font-family: 'GilroyRegular', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 300;
     font-size: calc(72 / 1920 * 100vw);
     color: #ffffff;
@@ -2024,7 +2057,7 @@ body {
     width: calc(2193 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(8779 / 1920 * 100vw);
+    top: calc(9100 / 1920 * 100vw);
     left: calc(-791 / 1920 * 100vw);
   }
 
@@ -2033,10 +2066,10 @@ body {
     height: auto;
 
     position: absolute;
-    top: calc(9026 / 1920 * 100vw);
+    top: calc(9300 / 1920 * 100vw);
     left: calc(225 / 1920 * 100vw);
 
-    font-family: 'Comfortaa SemiBold', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 550;
     font-size: calc(322 / 1920 * 100vw);
     color: #ffffff;
@@ -2046,7 +2079,7 @@ body {
     width: calc(1920 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(10273 / 1920 * 100vw);
+    top: calc(10765 / 1920 * 100vw);
     left: 0;
   }
 
@@ -2055,10 +2088,10 @@ body {
     height: auto;
 
     position: absolute;
-    top: calc(10650 / 1920 * 100vw);
+    top: calc(11387 / 1920 * 100vw);
     left: calc(830 / 1920 * 100vw);
 
-    font-family: 'GilroySemibold', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 550;
     font-size: calc(322 / 1920 * 100vw);
     color: #ffffff;
@@ -2079,7 +2112,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(12816 / 1920 * 100vw);
+    top: calc(14000 / 1920 * 100vw);
     left: calc(223 / 1920 * 100vw);
   }
 
@@ -2125,7 +2158,7 @@ body {
     padding-left: calc(106 / 1920 * 100vw);
     margin-top: calc(16 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
-    font-family: 'GilroySemibold', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     box-sizing: border-box;
     font-weight: 550;
@@ -2142,7 +2175,7 @@ body {
       vertical-align: center;
       margin-top: calc(16 / 1920 * 100vw);;
       padding-left: calc(106 / 1920 * 100vw);
-      font-family: 'GilroySemibold', sans-serif;
+      font-family: 'Gilroy', sans-serif;
       font-size: calc(66 / 1920 * 100vw);
       box-sizing: border-box;
       font-weight: 550;
@@ -2204,7 +2237,7 @@ body {
     position: absolute;
     top: calc(-5 / 1920 * 100vw);
     right: calc(-5 / 1920 * 100vw);
-    font-family: 'GilroySemibold', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     font-weight: 550;
     cursor: pointer;
@@ -2234,7 +2267,7 @@ body {
     border-radius: calc(39 / 1920 * 100vw);
     margin-top: calc(32 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
-    font-family: 'GilroySemibold', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 550;
     font-size: calc(66 / 1920 * 100vw);
     position: relative;
@@ -2257,7 +2290,7 @@ body {
   }
 
   button#subbut {
-    font-family: 'GilroySemibold', sans-serif;
+    font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
@@ -2284,7 +2317,7 @@ body {
     width: calc(1600 / 1920 * 100vw);
     height: calc(900 / 1920 * 100vw);
     position: absolute;
-    top: calc(15100 / 1920 * 100vw);
+    top: calc(16400 / 1920 * 100vw);
     left: calc(160 / 1920 * 100vw);
   }
 
