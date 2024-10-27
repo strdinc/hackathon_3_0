@@ -92,35 +92,7 @@ body {
   display: none;
 }
 
-.scroll-anim-y {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-  transform: translateY(0);
-  transition: transform 0.05s;
-}
 
-.scroll-anim-x {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-  transform: translateX(0);
-  transition: transform 0.05s;
-}
-
-.scroll-anim-x-cross {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-  transform: translateX(0);
-  transition: transform 0.05s;
-}
 
 
 /* Стиль для мониторов с соотношением 16:9 */
@@ -145,14 +117,6 @@ body {
     left: calc(-409 / 1920 * 100vw);
   }
 
-  .ball_blue_png {
-    width: calc(1323 / 1920 * 100vw);
-    height: auto;
-    position: absolute;
-    top: calc(1540 / 1920 * 100vw);
-    right: calc(-460 / 1920 * 100vw);;
-  }
-
   .title{
     width: calc(837 / 1920 * 100vw);
     height: calc(394 / 1920 * 100vw);
@@ -161,7 +125,13 @@ body {
     position: absolute;
   }
 
-
+  .ball_blue_png {
+    width: calc(1319 / 1920 * 100vw);
+    height: calc(1319 / 1920 * 100vw);
+    top: calc(1540 / 1920 * 100vw);
+    right: calc(-460 / 1920 * 100vw);
+    position: absolute;
+  }
 
   .button {
     width: calc(837 / 1920 * 100vw);
@@ -188,10 +158,10 @@ body {
     height: calc(130 / 1920 * 100vw);
 
     position: absolute;
-    top: 0;
-    left: 0;
+    top: calc(-5 / 1920 * 100vw);
+    left: calc(-5 / 1920 * 100vw);
   }
-  
+
   .description {
     width: calc(1007 / 1920 * 100vw);
     height: calc(317 / 1920 * 100vw);
@@ -308,14 +278,6 @@ body {
     left: calc(454 / 1920 * 100vw);
   }
 
-  .ring {
-    width: calc(2183 / 1920 * 100vw);
-    height: auto;
-    position: relative;
-    top: calc(1243 / 1920 * 100vw);
-    left: calc(785 / 1920 * 100vw);
-  }
-
   .computer_schedule_version {
     width: calc(1673 / 1920 * 100vw);
     height: auto;
@@ -346,7 +308,6 @@ body {
     color: #ffffff;
   }
 
-
   .cell_purple {
     width: calc(2896 / 1920 * 100vw);
     height: auto;
@@ -369,6 +330,78 @@ body {
     color: #ffffff;
   }
 
+  .QA {
+    width: calc(1674 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(8561 / 1920 * 100vw);
+    left: calc(123 / 1920 * 100vw);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .QA_title {
+    width: auto;
+    height: auto;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(223 / 1920 * 100vw);
+    color: #ffffff;
+  }
+
+  .Q_first_rec, .Q_second_rec {
+    width: calc(1674 / 1920 * 100vw);
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: calc(40 / 1920 * 100vw);
+    background-color: #5A00CD;
+    border-radius: calc(29 / 1920 * 100vw);
+
+    padding-left: calc(85 / 1920 * 100vw);
+    padding-top: calc(22 / 1920 * 100vw);
+    padding-bottom: calc(22 / 1920 * 100vw);
+  }
+
+  .Q_first, .Q_second {
+    width: auto;
+    height: auto;
+
+    margin-right: auto;
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(58 / 1920 * 100vw);
+    color: #ffffff;
+  }
+
+  .Q_first_arrow, .Q_second_arrow {
+    width: calc(48 / 1920 * 100vw);
+    height: calc(48 / 1920 * 100vw);
+
+    margin-top: calc(15 / 1920 * 100vw);
+    margin-left: auto;
+    margin-right: calc(41 / 1920 * 100vw);
+  }
+
+  .A_first {
+    margin-top: calc(14 / 1920 * 100vw);
+    background-color: transparent;
+    border: calc(11 / 1920 * 100vw) solid #5A00CD;
+    border-radius: calc(29 / 1920 * 100vw);
+
+    padding-left: calc(85 / 1920 * 100vw);
+    padding-top: calc(22 / 1920 * 100vw);
+    padding-bottom: calc(36 / 1920 * 100vw);
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(58 / 1920 * 100vw);
+    line-height: calc(61 / 1920 * 100vw);
+    color: #ffffff;
+  }
+
   .pixel {
     width: 1px;
     height: 1px;
@@ -384,7 +417,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(8580 / 1920 * 100vw);
+    top: calc(7700 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
@@ -1095,13 +1128,13 @@ body {
 /* Стиль для телефонов (например, экраны меньше 768px) */
 @media screen and (max-aspect-ratio: 1/1) {
 
-  
+
 
   .container {
     width: calc(1920 / 1920 * 100vw);
 
   }
-  
+
   .desktop {
     display: none;
   }
