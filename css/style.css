@@ -349,7 +349,9 @@ body {
     color: #ffffff;
   }
 
-  .Q_first_rec, .Q_second_rec {
+  .Q_first_rec, .Q_second_rec, .Q_third_rec,
+  .Q_fourth_rec, .Q_fifth_rec, .Q_sixth_rec, .Q_seventh_rec,
+  .Q_eighth_rec, .Q_ninth_rec, .Q_tenth_rec {
     width: calc(1674 / 1920 * 100vw);
 
     display: flex;
@@ -364,7 +366,9 @@ body {
     padding-bottom: calc(22 / 1920 * 100vw);
   }
 
-  .Q_first, .Q_second {
+  .Q_first, .Q_second, .Q_third,
+  .Q_fourth, .Q_fifth, .Q_sixth, .Q_seventh,
+  .Q_eighth, .Q_ninth, .Q_tenth {
     width: auto;
     height: auto;
 
@@ -376,23 +380,40 @@ body {
     color: #ffffff;
   }
 
-  .Q_first_arrow, .Q_second_arrow {
+  .Q_first_button, .Q_second_button, .Q_third_button,
+  .Q_fourth_button, .Q_fifth_button, .Q_sixth_button, .Q_seventh_button,
+  .Q_eighth_button, .Q_ninth_button, .Q_tenth_button {
     width: calc(48 / 1920 * 100vw);
     height: calc(48 / 1920 * 100vw);
 
-    margin-top: calc(15 / 1920 * 100vw);
-    margin-left: auto;
-    margin-right: calc(41 / 1920 * 100vw);
+    background-color: transparent;
+
+    border: transparent;
+
+    margin-top: calc(14 / 1920 * 100vw);
+    margin-right: calc(37 / 1920 * 100vw);
+
+    cursor: pointer;
   }
 
-  .A_first {
+  .Q_first_arrow, .Q_second_arrow, .Q_third_arrow,
+  .Q_fourth_arrow, .Q_fifth_arrow, .Q_sixth_arrow, .Q_seventh_arrow,
+  .Q_eighth_arrow, .Q_ninth_arrow, .Q_tenth_arrow {
+    width: calc(48 / 1920 * 100vw);
+    height: calc(48 / 1920 * 100vw);
+
+  }
+
+  .A_first, .A_second, .A_third,
+  .A_fourth, .A_fifth, .A_sixth, .A_seventh,
+  .A_eighth, .A_ninth, .A_tenth {
     margin-top: calc(14 / 1920 * 100vw);
     background-color: transparent;
     border: calc(11 / 1920 * 100vw) solid #5A00CD;
     border-radius: calc(29 / 1920 * 100vw);
 
     padding-left: calc(85 / 1920 * 100vw);
-    padding-top: calc(22 / 1920 * 100vw);
+    padding-top: calc(27 / 1920 * 100vw);
     padding-bottom: calc(36 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
