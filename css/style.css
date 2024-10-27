@@ -92,7 +92,32 @@ body {
   display: none;
 }
 
+.QA .A_first,
+.QA .A_second,
+.QA .A_third,
+.QA .A_fourth,
+.QA .A_fifth,
+.QA .A_sixth,
+.QA .A_seventh,
+.QA .A_eighth,
+.QA .A_ninth,
+.QA .A_tenth {
+  display: none;
+  overflow: hidden;
+}
 
+.QA .answer-visible {
+  display: block;
+  max-height: 300px; /* максимальная высота при открытии */
+}
+
+.QA button img {
+  transition: transform 0.3s ease;
+}
+
+.QA button img.rotated {
+  transform: rotate(180deg);
+}
 
 
 /* Стиль для мониторов с соотношением 16:9 */
@@ -101,6 +126,7 @@ body {
   .container {
     width: calc(1920 / 1920 * 100vw);
     display: flex;
+    flex-direction: column;
   }
 
 
@@ -120,9 +146,8 @@ body {
   .title{
     width: calc(837 / 1920 * 100vw);
     height: calc(394 / 1920 * 100vw);
-    top: calc(300 / 1920 * 100vw);
-    left: calc(909 / 1920 * 100vw);
-    position: absolute;
+    margin-top: calc(300 / 1920 * 100vw);
+    margin-left: calc(909 / 1920 * 100vw);
   }
 
   .ball_blue_png {
@@ -160,6 +185,20 @@ body {
     position: absolute;
     top: calc(-5 / 1920 * 100vw);
     left: calc(-5 / 1920 * 100vw);
+  }
+
+  .close_reg {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    top: calc(990 / 1920 * 100vw);
+    left: calc(1079 / 1920 * 100vw);
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(29 / 1920 * 100vw);
+    color: #ffffff;
   }
 
   .description {
@@ -334,7 +373,7 @@ body {
     width: calc(1674 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(8561 / 1920 * 100vw);
+    top: calc(7700 / 1920 * 100vw);
     left: calc(123 / 1920 * 100vw);
     display: flex;
     flex-direction: column;
@@ -400,8 +439,6 @@ body {
   .Q_fourth_arrow, .Q_fifth_arrow, .Q_sixth_arrow, .Q_seventh_arrow,
   .Q_eighth_arrow, .Q_ninth_arrow, .Q_tenth_arrow {
     width: calc(48 / 1920 * 100vw);
-    height: calc(48 / 1920 * 100vw);
-
   }
 
   .A_first, .A_second, .A_third,
@@ -412,9 +449,7 @@ body {
     border: calc(11 / 1920 * 100vw) solid #5A00CD;
     border-radius: calc(29 / 1920 * 100vw);
 
-    padding-left: calc(85 / 1920 * 100vw);
-    padding-top: calc(27 / 1920 * 100vw);
-    padding-bottom: calc(36 / 1920 * 100vw);
+    padding: calc(27 / 1920 * 100vw) calc(85 / 1920 * 100vw) calc(36 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
@@ -428,7 +463,7 @@ body {
     height: 1px;
     background: #1E1E1E;
     position: absolute;
-    top: calc(8500 / 1920 * 100vw);
+    top: calc(9800 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
@@ -438,7 +473,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(7700 / 1920 * 100vw);
+    top: calc(10000 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
@@ -540,7 +575,7 @@ body {
   }
 
 
-  select#track, select#participation-format, select#has-team {
+  select#track, select#has-team {
     appearance: none;
     width: calc(381 / 1920 * 100vw);
     height: calc(98 / 1920 * 100vw);
@@ -583,8 +618,6 @@ body {
     margin-top: calc(16 / 1920 * 100vw);
   }
 
-
-
   #no-team-message {
     width: calc(726 / 1920 * 100vw);
     height: calc(97 / 1920 * 100vw);
@@ -622,6 +655,48 @@ body {
     cursor: pointer;
   }
 
+  #subbut {
+    cursor: not-allowed;
+  }
+
+  .conditionsButt {
+    width: calc(727 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+
+    top: calc(348 / 1920 * 100vw);
+    left: calc(773 / 1920 * 100vw);;
+
+  }
+
+  .conditionsText {
+    width: calc(460 / 1920 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(-12 / 1920 * 100vw);
+    left: calc(50 / 1920 * 100vw);
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(31 / 1920 * 100vw);
+    color: white;
+  }
+
+  button.color-toggle {
+    width: calc(30 / 1920 * 100vw);
+    height: calc(30 / 1920 * 100vw);
+    border-radius: 50%;
+    border: calc(3 / 1920 * 100vw) solid #15E9C3;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 0;
+  }
+
   button#subbut:hover {
     background-color: #15E9C3FF;
     color: #1E1E1E;
@@ -636,7 +711,7 @@ body {
     width: calc(1474 / 1920 * 100vw);
     height: calc(637 / 1920 * 100vw);
     position: absolute;
-    top: calc(9800 / 1920 * 100vw);
+    top: calc(11200 / 1920 * 100vw);
     left: calc(224 / 1920 * 100vw);
   }
 
@@ -706,7 +781,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(1540 / 3440 * 100vw);
-    left: calc(1822 / 3440 * 100vw);
+    left: calc(1850 / 3440 * 100vw);
   }
 
   .title {
@@ -764,7 +839,7 @@ body {
     height: auto;
     position: absolute;
     top: calc(1666 / 3440 * 100vw);
-    left: calc(826 / 3440 * 100vw);
+    left: calc(883 / 3440 * 100vw);
   }
 
   .participation_title {
@@ -899,6 +974,99 @@ body {
     font-family: 'Gilroy', sans-serif;
     font-weight: 550;
     font-size: calc(223 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .QA {
+    width: calc(1674 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(8561 / 3440 * 100vw);
+    left: calc(884 / 3440 * 100vw);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .QA_title {
+    width: auto;
+    height: auto;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 550;
+    font-size: calc(223 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .Q_first_rec, .Q_second_rec, .Q_third_rec,
+  .Q_fourth_rec, .Q_fifth_rec, .Q_sixth_rec, .Q_seventh_rec,
+  .Q_eighth_rec, .Q_ninth_rec, .Q_tenth_rec {
+    width: calc(1674 / 3440 * 100vw);
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: calc(40 / 3440 * 100vw);
+    background-color: #5A00CD;
+    border-radius: calc(29 / 3440 * 100vw);
+
+    padding-left: calc(85 / 3440 * 100vw);
+    padding-top: calc(22 / 3440 * 100vw);
+    padding-bottom: calc(22 / 3440 * 100vw);
+  }
+
+  .Q_first, .Q_second, .Q_third,
+  .Q_fourth, .Q_fifth, .Q_sixth, .Q_seventh,
+  .Q_eighth, .Q_ninth, .Q_tenth {
+    width: auto;
+    height: auto;
+
+    margin-right: auto;
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(58 / 3440 * 100vw);
+    color: #ffffff;
+  }
+
+  .Q_first_button, .Q_second_button, .Q_third_button,
+  .Q_fourth_button, .Q_fifth_button, .Q_sixth_button, .Q_seventh_button,
+  .Q_eighth_button, .Q_ninth_button, .Q_tenth_button {
+    width: calc(48 / 3440 * 100vw);
+    height: calc(48 / 3440 * 100vw);
+
+    background-color: transparent;
+
+    border: transparent;
+
+    margin-top: calc(14 / 3440 * 100vw);
+    margin-right: calc(37 / 3440 * 100vw);
+
+    cursor: pointer;
+  }
+
+  .Q_first_arrow, .Q_second_arrow, .Q_third_arrow,
+  .Q_fourth_arrow, .Q_fifth_arrow, .Q_sixth_arrow, .Q_seventh_arrow,
+  .Q_eighth_arrow, .Q_ninth_arrow, .Q_tenth_arrow {
+    width: calc(48 / 3440 * 100vw);
+    height: calc(48 / 3440 * 100vw);
+
+  }
+
+  .A_first, .A_second, .A_third,
+  .A_fourth, .A_fifth, .A_sixth, .A_seventh,
+  .A_eighth, .A_ninth, .A_tenth {
+    margin-top: calc(14 / 3440 * 100vw);
+    background-color: transparent;
+    border: calc(11 / 3440 * 100vw) solid #5A00CD;
+    border-radius: calc(29 / 1920 * 100vw);
+
+    padding-left: calc(85 / 3440 * 100vw);
+    padding-top: calc(27 / 3440 * 100vw);
+    padding-bottom: calc(36 / 3440 * 100vw);
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(58 / 3440 * 100vw);
+    line-height: calc(61 / 3440 * 100vw);
     color: #ffffff;
   }
 
