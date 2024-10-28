@@ -126,7 +126,7 @@
 
 
       <div class="form-container">
-        <form action="submit.php" method="post">
+        <form id="applicationForm" action="submit.php" method="post" onsubmit="clearForm(event)">
           <input type="text" placeholder="фио" id="fio" name="fio" required>
 
 
@@ -170,7 +170,7 @@
               <button type="button" class="color-toggle" onclick="toggleColorAndEnableSubmit(this)"></button>
               <div class="conditionsText">с политикой конфиденциальности согласен</div>
             </div>
-            <button id="subbut" type="submit">отправить</button>
+            <button id="subbut" type="submit" disabled>отправить</button>
           </div>
 
         </form>
