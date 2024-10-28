@@ -49,45 +49,6 @@
   font-weight: 750;
 }
 
-
-
-.comfortaa-Light {
-  font-family: "Comfortaa", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-
-
-.comfortaa-Regular {
-  font-family: "Comfortaa", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.comfortaa-Medium {
-  font-family: "Comfortaa", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-
-}
-
-.comfortaa-SemiBold {
-  font-family: "Comfortaa", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.comfortaa-Bold {
-  font-family: "Comfortaa", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
 body {
   background-color: #1E1E1E;
   overflow-x: hidden;
@@ -138,8 +99,6 @@ body {
     display: flex;
     flex-direction: column;
   }
-
-
 
   .mobile {
     display: none;
@@ -991,7 +950,7 @@ body {
     width: calc(1674 / 3440 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(8561 / 3440 * 100vw);
+    top: calc(7700 / 3440 * 100vw);
     left: calc(884 / 3440 * 100vw);
     display: flex;
     flex-direction: column;
@@ -1085,7 +1044,7 @@ body {
     height: 1px;
     background: #1E1E1E;
     position: absolute;
-    top: calc(7650 / 3440 * 100vw);
+    top: calc(9800 / 3440 * 100vw);
     left: calc(989 / 3440 * 100vw);
   }
 
@@ -1095,7 +1054,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(7700 / 3440 * 100vw);
+    top: calc(10000 / 3440 * 100vw);
     left: calc(989 / 3440 * 100vw);
   }
 
@@ -1263,6 +1222,45 @@ body {
     border: calc(5 / 3440 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 3440 * 100vw);
     cursor: pointer;
+  }
+  
+  #subbut {
+    cursor:not-allowed;
+    }
+    
+  .conditionsButt {
+    width: calc(727 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(348 / 3440 * 100vw);
+    left: calc(773 / 3440 * 100vw);
+  }
+    
+  .conditionsText {
+    width: calc(460 / 3440 * 100vw);
+    height: auto;
+    position: absolute;
+    top: calc(-12 / 3440 * 100vw);
+    left: calc(50 / 3440 * 100vw);
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(35 / 3440 * 100vw);
+    font-weight: 450;
+    color: white;
+  }
+  
+  button.color-toggle {
+    width: calc(30 / 3440 * 100vw);
+    height: calc(30 / 3440 * 100vw);
+    border-radius: 50%;
+    border: calc(3 / 3440 * 100vw) solid #15E9C3;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 0;
   }
 
   button#subbut:hover {
