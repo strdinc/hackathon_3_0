@@ -1,4 +1,4 @@
-* {
+j* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -784,6 +784,20 @@ body {
     top: 0;
     left: 0;
   }
+  
+  .close_reg {
+    width: auto;
+    height: auto;
+
+    position: absolute;
+    top: calc(990 / 3440 * 100vw);
+    left: calc(1839 / 3440 * 100vw);
+
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 450;
+    font-size: calc(29 / 3440 * 100vw);
+    color: #ffffff;
+  }
 
   .description {
     width: calc(1007 / 3440 * 100vw);
@@ -1277,7 +1291,7 @@ body {
     width: calc(1474 / 3440 * 100vw);
     height: calc(637 / 3440 * 100vw);
     position: absolute;
-    top: calc(9000 / 3440 * 100vw);
+    top: calc(11200 / 3440 * 100vw);
     left: calc(983 / 3440 * 100vw);
   }
 
