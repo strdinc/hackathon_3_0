@@ -8,7 +8,8 @@
   font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
   url('fonts/Gilroy-Regular.woff') format('woff'),
-  url('fonts/Gilroy-Regular.ttf') format('ttf');
+  url('fonts/Gilroy-Regular.ttf') format('truetype'),
+  url('fonts/gilroy-regular.svg#font') format('svg');
   font-weight: 350;
 }
 
@@ -16,7 +17,8 @@
   font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
   url('fonts/Gilroy-Medium.woff') format('woff'),
-  url('fonts/Gilroy-Medium.ttf') format('ttf');
+  url('fonts/Gilroy-Medium.ttf') format('truetype'),
+  url('fonts/gilroy-medium.svg#font') format('svg');
   font-weight: 450;
 }
 
@@ -24,7 +26,8 @@
   font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Semibold.woff2') format('woff2'),
   url('fonts/Gilroy-Semibold.woff') format('woff'),
-  url('fonts/Gilroy-SemiBold.ttf') format('ttf');
+  url('fonts/Gilroy-SemiBold.ttf') format('truetype'),
+  url('fonts/gilroy-semibold.svg#font') format('svg');
   font-weight: 550;
 }
 
@@ -32,7 +35,8 @@
   font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Bold.woff2') format('woff2'),
   url('fonts/Gilroy-Bold.woff') format('woff'),
-  url('fonts/Gilroy-Bold.ttf') format('ttf');
+  url('fonts/Gilroy-Bold.ttf') format('truetype'),
+  url('fonts/gilroy-bold.svg#font') format('svg');
   font-weight: 650;
 }
 
@@ -40,7 +44,8 @@
   font-family: 'Gilroy', sans-serif;
   src: url('fonts/Gilroy-Extrabold.woff2') format('woff2'),
   url('fonts/Gilroy-Extrabold.woff') format('woff'),
-  url('fonts/Gilroy-ExtraBold.ttf') format('ttf');
+  url('fonts/Gilroy-ExtraBold.ttf') format('truetype'),
+  url('fonts/gilroy-extrabold.svg#font') format('svg');
   font-weight: 750;
 }
 
