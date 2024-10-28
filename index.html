@@ -29,15 +29,13 @@
 <body>
 <div class="container">
 
-  <div class="cross">
-    <img src="images/background/cross.png" class="cross_img desktop">
-  </div>
+  <img src="images/background/cross.png" class="cross_img desktop">
   <img src="images/background/mobile/cross.png" alt="крест" class="cross_mobile_img mobile">
   <img src="images/background/mobile/ball_blue.png" alt="ball_blue" class="ball_blue_mobile_png mobile">
   <img src="images/background/ball_blue.png" alt="ball_blue" class="ball_blue_png desktop">
-  <img src="images/other/title.png" alt="title" class="title">
   <button class="button" type="button" id="participateButton"><img src="images/other/button_first.png" class="discr_button_img"></button>
   <div class="close_reg">успей заполнить заявку до 15.11.2024</div>
+  <img src="images/other/title.png" alt="title" class="title">
 
   <div class="participation">
     <p class="participation_title float-complex">участие</p>
@@ -167,15 +165,15 @@
 
           </div>
 
-
-          <button id="subbut" type="submit">отправить</button>
+          <div class="submit">
+            <div class="conditionsButt">
+              <button type="button" class="color-toggle" onclick="toggleColorAndEnableSubmit(this)"></button>
+              <div class="conditionsText">с политикой конфиденциальности согласен</div>
+            </div>
+            <button id="subbut" type="submit">отправить</button>
+          </div>
 
         </form>
-
-        <div class="conditionsButt">
-          <button type="button" class="color-toggle" onclick="toggleColorAndEnableSubmit(this)"></button>
-          <div class="conditionsText">нажимая на конпку отправить, вы соглашаетесь с политикой конфеденциальности</div>
-        </div>
 
       </div>
 
