@@ -1328,7 +1328,6 @@ body {
 
   .container {
     width: calc(1920 / 1920 * 100vw);
-
   }
 
   .desktop {
@@ -1733,16 +1732,15 @@ body {
     text-align: center;
   }
 
-
-
-
   button#subbut {
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
-    margin-top: calc(16 / 1920 * 100vw);
+    margin-top: calc(30 / 1920 * 100vw);
     color: #15E9C3FF;
+    position: absolute;
+    bottom: calc(0 / 1920 * 100vw);
 
     background-color: rgba(21, 233, 195, 0.28);
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
@@ -1755,18 +1753,15 @@ body {
   }
 
   .submit {
+    height: calc(255 / 1920 * 100vw);;
     width: calc(1600 / 1920 * 100vw);
-    height: auto;
     position: relative;
+
   }
 
   .conditionsButt {
-    position: relative;
     width: calc(727 / 1920 * 100vw);
     height: auto;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: calc(60 / 1920 * 100vw);
     margin-left: calc(60 / 1920 * 100vw);
   }
 
@@ -1774,8 +1769,8 @@ body {
     width: calc(1600 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(-15 / 1920 * 100vw);
-    left: calc(100 / 1920 * 100vw);
+    top: calc(-7 / 1920 * 100vw);
+    left: calc(150 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
@@ -1784,8 +1779,8 @@ body {
   }
 
   button.color-toggle {
-    width: calc(50 / 1920 * 100vw);
-    height: calc(50 / 1920 * 100vw);
+    width: calc(70 / 1920 * 100vw);
+    height: calc(70 / 1920 * 100vw);
     border-radius: 50%;
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     cursor: pointer;

@@ -6,12 +6,12 @@ function toggleColorAndEnableSubmit(button) {
     button.style.backgroundColor = "#15E9C3";
     document.getElementById("subbut").disabled = false;
     document.getElementById("subbut").style.cursor = "pointer";
-    document.getElementById("subbut").style.backgroundColor = "#4CAF50"; // Цвет активной кнопки
+    document.getElementById("subbut").style.backgroundColor = "#15E9C347"; // Цвет активной кнопки
   } else {
-    button.style.backgroundColor = "#4CAF50";
+    button.style.backgroundColor = "#1E1E1E";
     document.getElementById("subbut").disabled = true;
     document.getElementById("subbut").style.cursor = "not-allowed";
-    document.getElementById("subbut").style.backgroundColor = "#ccc"; // Цвет заблокированной кнопки
+    document.getElementById("subbut").style.backgroundColor = "#15E9C347"; // Цвет заблокированной кнопки
   }
   isToggled = !isToggled; // Переключаем состояние
 }
