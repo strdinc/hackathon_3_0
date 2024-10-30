@@ -1,4 +1,4 @@
-j* {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -81,11 +81,11 @@ body {
   max-height: 300px;
 }
 
-.QA button img {
+.QA img {
   transition: transform 0.3s ease;
 }
 
-.QA button img.rotated {
+.rotated {
   transform: rotate(180deg);
 }
 
@@ -1420,11 +1420,11 @@ body {
   }
 
   .QA {
-    width: calc(1674 / 1920 * 100vw);
+    width: calc(1474 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(12600 / 1920 * 100vw);
-    left: calc(123 / 1920 * 100vw);
+    left: calc(223 / 1920 * 100vw);
     display: flex;
     flex-direction: column;
   }
@@ -1441,44 +1441,77 @@ body {
   .Q_first_rec, .Q_second_rec, .Q_third_rec,
   .Q_fourth_rec, .Q_fifth_rec, .Q_sixth_rec, .Q_seventh_rec,
   .Q_eighth_rec, .Q_ninth_rec, .Q_tenth_rec {
-    width: calc(1600 / 1920 * 100vw);
+    width: calc(1474 / 1920 * 100vw);
+    height: auto;
 
     display: flex;
     flex-direction: row;
 
-    margin-top: calc(40 / 1920 * 100vw);
+    margin-top: calc(30 / 1920 * 100vw);
     background-color: #5A00CD;
     border-radius: calc(29 / 1920 * 100vw);
 
     padding-left: calc(85 / 1920 * 100vw);
-    padding-top: calc(22 / 1920 * 100vw);
-    padding-bottom: calc(18 / 1920 * 100vw);
   }
 
   .Q_first, .Q_second, .Q_third,
   .Q_fourth, .Q_fifth, .Q_sixth, .Q_seventh,
   .Q_eighth, .Q_ninth, .Q_tenth {
-    width: calc(1500 / 1920 * 100vw);
+    width: calc(1200 / 1920 * 100vw);
     height: auto;
 
     margin-right: auto;
-    margin-bottom: calc(15 / 1920 * 100vw);
+    margin-top: calc(43 / 1920 * 100vw);
+    margin-bottom: calc(43 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
-    font-size: calc(65 / 1920 * 100vw);
-    line-height: calc(65 / 1920 * 100vw);
+    font-size: calc(66 / 1920 * 100vw);
+    line-height: calc(66 / 1920 * 100vw);
     color: #ffffff;
   }
 
-  .Q_first_button, .Q_second_button, .Q_third_button,
-  .Q_fourth_button, .Q_fifth_button, .Q_sixth_button, .Q_seventh_button,
-  .Q_eighth_button, .Q_ninth_button, .Q_tenth_button {
+  .Q_first_button_arrow, .Q_second_button_arrow, .Q_third_button_arrow,
+  .Q_fourth_button_arrow, .Q_fifth_button_arrow, .Q_sixth_button_arrow, .Q_seventh_button_arrow,
+  .Q_eighth_button_arrow, .Q_ninth_button_arrow, .Q_tenth_button_arrow {
     width: calc(55 / 1920 * 100vw);
     height: calc(55 / 1920 * 100vw);
     background-color: transparent;
+    color: transparent;
     border: transparent;
+    border-radius: calc(29 / 1920 * 100vw);
     margin: auto calc(60 / 1920 * 100vw) auto auto;
+  }
+
+  .Q_first_button, .Q_third_button,
+  .Q_sixth_button, .Q_seventh_button,
+  .Q_fourth_button, .Q_fifth_button,
+  .Q_eighth_button {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
+    position: absolute;
+    left: calc(0 / 1920 * 100vw);
+
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+
+    border-radius: calc(29 / 1920 * 100vw);
+
+    cursor: pointer;
+  }
+
+  .Q_second_button, .Q_ninth_button, .Q_tenth_button {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(220 / 1920 * 100vw);
+    position: absolute;
+    left: calc(0 / 1920 * 100vw);
+
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+
+    cursor: pointer;
   }
 
   .Q_first_arrow, .Q_second_arrow, .Q_third_arrow,
@@ -1490,13 +1523,13 @@ body {
   .A_first, .A_second, .A_third,
   .A_fourth, .A_fifth, .A_sixth, .A_seventh,
   .A_eighth, .A_ninth, .A_tenth {
-    width: calc(1494 / 1920 * 100vw);
+    width: calc(1474 / 1920 * 100vw);
     margin-top: calc(14 / 1920 * 100vw);
     background-color: #1E1E1E;
     border: calc(11 / 1920 * 100vw) solid #5A00CD;
     border-radius: calc(29 / 1920 * 100vw);
 
-    padding: calc(27 / 1920 * 100vw) calc(85 / 1920 * 100vw) calc(36 / 1920 * 100vw);
+    padding: calc(35 / 1920 * 100vw) calc(85 / 1920 * 100vw) calc(43 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
@@ -1564,7 +1597,7 @@ body {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: calc(15060 / 1920 * 100vw);
+    top: calc(15460 / 1920 * 100vw);
     left: calc(223 / 1920 * 100vw);
   }
 
@@ -1623,8 +1656,6 @@ body {
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
     vertical-align: center;
-    margin-top: calc(16 / 1920 * 100vw);
-    margin-bottom: calc(1 / 1920 * 100vw);
     padding-left: calc(106 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
@@ -1640,8 +1671,8 @@ body {
     font-size: calc(66 / 1920 * 100vw);
   }
 
-   .team_container, .part_container {
-    width: calc(1360 / 1920 * 100vw);
+  .part_container {
+    width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
@@ -1652,8 +1683,20 @@ body {
     padding-left: calc(106 / 1920 * 100vw);
   }
 
+  .team_container {
+    width: calc(1474 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
+    background-color: transparent;
+    border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
+    border-radius: calc(39 / 1920 * 100vw);
+    margin-top: calc(16 / 1920 * 100vw);
+    margin-bottom: calc(35 / 1920 * 100vw);
+    position: relative;
+    padding-left: calc(106 / 1920 * 100vw);
+  }
+
   .track_container  {
-    width: calc(1360 / 1920 * 100vw);
+    width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
@@ -1668,7 +1711,7 @@ body {
     width: auto;
     height: auto;
     position: absolute;
-    top: calc(27 / 1920 * 100vw);
+    top: calc(32 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(66 / 1920 * 100vw);
     color: #15E9C3FF;
@@ -1712,11 +1755,11 @@ body {
 
   #no-team-message {
     width: calc(1474 / 1920 * 100vw);
-    height: calc(117 / 1920 * 100vw);
+    height: calc(154 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
-    padding-top: calc(27 / 1920 * 100vw);
+    padding-top: calc(30 / 1920 * 100vw);
     margin-top: calc(32 / 1920 * 100vw);
     margin-bottom: calc(35 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
@@ -1737,7 +1780,6 @@ body {
     font-size: calc(66 / 1920 * 100vw);
     width: calc(1474 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
-    margin-top: calc(30 / 1920 * 100vw);
     color: #15E9C3FF;
     position: absolute;
     bottom: calc(0 / 1920 * 100vw);
@@ -1753,8 +1795,8 @@ body {
   }
 
   .submit {
-    height: calc(255 / 1920 * 100vw);;
-    width: calc(1600 / 1920 * 100vw);
+    height: calc(295 / 1920 * 100vw);;
+    width: calc(1474 / 1920 * 100vw);
     position: relative;
 
   }
@@ -1762,18 +1804,21 @@ body {
   .conditionsButt {
     width: calc(727 / 1920 * 100vw);
     height: auto;
-    margin-left: calc(60 / 1920 * 100vw);
+    margin-left: calc(106 / 1920 * 100vw);
+    margin-top: calc(60 / 1920 * 100vw);
+
   }
 
   .conditionsText {
-    width: calc(1600 / 1920 * 100vw);
+    width: calc(1000 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(-7 / 1920 * 100vw);
-    left: calc(150 / 1920 * 100vw);
+    top: calc(-20 / 1920 * 100vw);
+    left: calc(220 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
+    line-height: calc(60 / 1920 * 100vw);
     font-size: calc(60 / 1920 * 100vw);
     color: white;
   }
@@ -1788,7 +1833,7 @@ body {
     background-color: transparent;
     transition: background-color 0.3s;
     position: absolute;
-    top: 0;
+    top: calc(7 / 1920 * 100vw);
   }
 
   button#subbut:hover {
@@ -1798,14 +1843,14 @@ body {
 
   #team-name-container {
     height: calc(154 / 1920 * 100vw);
-    margin-bottom: calc(50 / 1920 * 100vw);
+    margin-bottom: calc(35 / 1920 * 100vw);
   }
 
   .footer {
     width: calc(1600 / 1920 * 100vw);
     height: calc(700 / 1920 * 100vw);
     position: absolute;
-    top: calc(17300 / 1920 * 100vw);
+    top: calc(17700 / 1920 * 100vw);
     left: calc(160 / 1920 * 100vw);
   }
 
