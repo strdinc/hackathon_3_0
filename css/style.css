@@ -385,7 +385,7 @@ body {
     border-radius: calc(29 / 1920 * 100vw);
     margin: calc(40 / 1920 * 100vw) calc(100 / 1920 * 100vw) auto auto;
   }
-  
+
 
   .Q_first_arrow, .Q_second_arrow, .Q_third_arrow,
   .Q_fourth_arrow, .Q_fifth_arrow, .Q_sixth_arrow, .Q_seventh_arrow,
@@ -528,8 +528,8 @@ body {
   }
 
   .track_container, .part_container {
-    width: calc(690 / 1920 * 100vw);
-    height: calc(90 / 1920 * 100vw);
+    width: calc(727 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
     border-radius: calc(39 / 1920 * 100vw);
@@ -562,14 +562,14 @@ body {
   select#track, select#has-team {
     appearance: none;
     width: calc(381 / 1920 * 100vw);
-    height: calc(90 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
     background-color: #15e9c3;
     color: #1e1e1e;
     border-radius: calc(32 / 1920 * 100vw);
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
     position: absolute;
-    top: calc(0 / 1920 * 100vw);
-    right: calc(0 / 1920 * 100vw);
+    top: calc(-5 / 1920 * 100vw);
+    right: calc(-5 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(35 / 1920 * 100vw);
     font-weight: 550;
@@ -584,8 +584,8 @@ body {
   }
 
   .team_container {
-    width: calc(690 / 1920 * 100vw);
-    height: calc(90 / 1920 * 100vw);
+    width: calc(727 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
     border-radius: calc(39 / 1920 * 100vw);
@@ -603,7 +603,7 @@ body {
 
   #no-team-message {
     width: calc(726 / 1920 * 100vw);
-    height: calc(70 / 1920 * 100vw);
+    height: calc(98 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
@@ -641,7 +641,8 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: calc(48 / 1920 * 100vw);
+    margin-top: calc(40 / 1920 * 100vw);
+    margin-bottom: calc(72 / 1920 * 100vw);
     margin-left: calc(16 / 1920 * 100vw);
   }
 
@@ -691,6 +692,23 @@ body {
   button#subbut:hover {
     background-color: #15E9C3FF;
     color: #1E1E1E;
+  }
+
+  #successMessage {
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 1920 * 100vw);
+    width: calc(726 / 1920 * 100vw);
+    height: calc(97 / 1920 * 100vw);
+    color: #15E9C3FF;
+
+    background-color: rgb(30, 30, 30);
+    border: calc(5 / 1920 * 100vw) solid #15E9C3;
+    border-radius: calc(39 / 1920 * 100vw);
+    cursor: pointer;
+
+    position: relative;
+    padding-left: calc(170 / 1920 * 100vw);
+    padding-top: calc(19 / 1920 * 100vw);
   }
 
   #team-name-container {
@@ -774,6 +792,7 @@ body {
     left: calc(1669 / 3440 * 100vw);
   }
 
+
   .ball_blue_png {
     width: calc(1319 / 3440 * 100vw);
     height: calc(1319 / 3440 * 100vw);
@@ -830,7 +849,7 @@ body {
     height: calc(959 / 3440 * 100vw);
     position: absolute;
     top: calc(1200 / 3440 * 100vw);
-    left: calc(826 / 3440 * 100vw);
+    left: calc(822 / 3440 * 100vw);
   }
 
   .participation_title {
@@ -848,12 +867,12 @@ body {
     width: calc(693 / 3440 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(500 / 3440 * 100vw);
+    top: calc(300 / 3440 * 100vw);
     left: 0;
   }
 
   .participation_analytics, .participation_back_end, .participation_testing,
-  .participation_front_end, .participation_UXUI, .participation_project {
+  .participation_front_end,  .participation_UXUI, .participation_project {
     height: calc(85 / 3440 * 100vw);
 
     position: absolute;
@@ -862,7 +881,7 @@ body {
     border-radius: calc(90 / 3440 * 100vw);
     background-color: transparent;
 
-    padding-top: calc(18 / 3440 * 100vw);
+    padding-top: calc(5 / 3440 * 100vw);
     padding-left: calc(38 / 3440 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
@@ -872,49 +891,49 @@ body {
   }
 
   .participation_analytics, .participation_front_end {
-    top: calc(665 / 3440 * 100vw);
+    top: calc(520 / 3440 * 100vw);
   }
 
   .participation_project, .participation_back_end {
-    top: calc(800 / 3440 * 100vw);
+    top: calc(640 / 3440 * 100vw);
   }
 
   .participation_testing, .participation_UXUI {
-    top: calc(935 / 3440 * 100vw);
+    top: calc(760 / 3440 * 100vw);
   }
 
   .participation_analytics {
-    width: calc(294 / 3440 * 100vw);
+    width: calc(335 / 3440 * 100vw);
 
     left: 0;
   }
 
   .participation_front_end {
-    width: calc(270 / 3440 * 100vw);
+    width: calc(310 / 3440 * 100vw);
 
     left: calc(371 / 3440 * 100vw);
   }
 
   .participation_project {
-    width: calc(510 / 3440 * 100vw);
+    width: calc(550 / 3440 * 100vw);
 
     left: calc(56 / 3440 * 100vw);
   }
 
   .participation_back_end {
-    width: calc(275 / 3440 * 100vw);
+    width: calc(315 / 3440 * 100vw);
 
     left: calc(643 / 3440 * 100vw);
   }
 
   .participation_testing {
-    width: calc(377 / 3440 * 100vw);
+    width: calc(415 / 3440 * 100vw);
 
     left: 0;
   }
 
   .participation_UXUI {
-    width: calc(359 / 3440 * 100vw);
+    width: calc(400 / 3440 * 100vw);
 
     left: calc(454 / 3440 * 100vw);
   }
@@ -972,11 +991,11 @@ body {
   }
 
   .QA {
-    width: calc(1600 / 3440 * 100vw);
+    width: calc(1500 / 3440 * 100vw);
     height: auto;
     position: absolute;
     top: calc(7000 / 3440 * 100vw);
-    left: calc(884 / 3440 * 100vw);
+    left: calc(986 / 3440 * 100vw);
     display: flex;
     flex-direction: column;
   }
@@ -993,7 +1012,7 @@ body {
   .Q_first_rec, .Q_second_rec, .Q_third_rec,
   .Q_fourth_rec, .Q_fifth_rec, .Q_sixth_rec, .Q_seventh_rec,
   .Q_eighth_rec, .Q_ninth_rec, .Q_tenth_rec {
-    width: calc(1600 / 3440 * 100vw);
+    width: calc(1500 / 3440 * 100vw);
 
     display: flex;
     flex-direction: row;
@@ -1021,32 +1040,72 @@ body {
     color: #ffffff;
   }
 
-  .Q_first_button, .Q_second_button, .Q_third_button,
-  .Q_fourth_button, .Q_fifth_button, .Q_sixth_button, .Q_seventh_button,
-  .Q_eighth_button, .Q_ninth_button, .Q_tenth_button {
-    width: calc(48 / 3440 * 100vw);
-    height: calc(48 / 3440 * 100vw);
-
+  .Q_first_button_arrow, .Q_third_button_arrow,
+  .Q_fourth_button_arrow, .Q_fifth_button_arrow, .Q_sixth_button_arrow, .Q_seventh_button_arrow,
+  .Q_eighth_button_arrow, .Q_ninth_button_arrow, .Q_tenth_button_arrow {
+    width: calc(45 / 3440 * 100vw);
+    height: calc(45 / 3440 * 100vw);
     background-color: transparent;
-
+    color: transparent;
     border: transparent;
-
-    margin-top: calc(12 / 3440 * 100vw);
-    margin-right: calc(50 / 3440 * 100vw);
-
-    cursor: pointer;
+    border-radius: calc(29 / 3440 * 100vw);
+    margin: calc(0 / 3440 * 100vw) calc(100 / 3440 * 100vw) auto auto;
   }
+
+  .Q_second_button_arrow {
+    width: calc(45 / 3440 * 100vw);
+    height: calc(45 / 3440 * 100vw);
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+    border-radius: calc(29 / 3440 * 100vw);
+    margin: calc(40 / 3440 * 100vw) calc(100 / 3440 * 100vw) auto auto;
+  }
+
 
   .Q_first_arrow, .Q_second_arrow, .Q_third_arrow,
   .Q_fourth_arrow, .Q_fifth_arrow, .Q_sixth_arrow, .Q_seventh_arrow,
   .Q_eighth_arrow, .Q_ninth_arrow, .Q_tenth_arrow {
-    width: calc(48 / 3440 * 100vw);
+    width: calc(70 / 3440 * 100vw);
+  }
+
+  .Q_first_button, .Q_third_button,
+  .Q_sixth_button, .Q_seventh_button,
+  .Q_fourth_button, .Q_fifth_button,
+  .Q_eighth_button {
+    width: calc(1500 / 3440 * 100vw);
+    height: calc(117 / 3440 * 100vw);
+    position: absolute;
+    margin-top: calc(-22 / 3440 * 100vw);
+    left: calc(0 / 3440 * 100vw);
+
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+
+    border-radius: calc(29 / 3440 * 100vw);
+
+    cursor: pointer;
+  }
+
+  .Q_second_button, .Q_ninth_button, .Q_tenth_button {
+    width: calc(1500 / 3440 * 100vw);
+    height: calc(200 / 3440 * 100vw);
+    position: absolute;
+    margin-top: calc(-22 / 3440 * 100vw);
+    left: calc(0 / 3440 * 100vw);
+
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+
+    cursor: pointer;
   }
 
   .A_first, .A_second, .A_third,
   .A_fourth, .A_fifth, .A_sixth, .A_seventh,
   .A_eighth, .A_ninth, .A_tenth {
-    width: calc(1494 / 3440 * 100vw);
+    width: calc(1500 / 3440 * 100vw);
     margin-top: calc(14 / 3440 * 100vw);
     background-color: #1E1E1E;
     border: calc(11 / 3440 * 100vw) solid #5A00CD;
@@ -1067,17 +1126,17 @@ body {
     background: #1E1E1E;
     position: absolute;
     top: calc(9200 / 3440 * 100vw);
-    left: calc(224 / 3440 * 100vw);
+    left: calc(986 / 3440 * 100vw);
   }
 
   .application {
-    width: calc(1700 / 3440 * 100vw);
+    width: calc(1600 / 3440 * 100vw);
     height: auto;
     display: flex;
     flex-direction: column;
     position: absolute;
     top: calc(9300 / 3440 * 100vw);
-    left: calc(983 / 3440 * 100vw);
+    left: calc(986 / 3440 * 100vw);
   }
 
   .application_title_png {
@@ -1101,7 +1160,7 @@ body {
   }
 
   .form-container {
-    width: calc(1700 / 3440 * 100vw);
+    width: calc(1490 / 3440 * 100vw);
     height: auto;
     display: flex;
     position: absolute;
@@ -1115,7 +1174,7 @@ body {
     width: calc(727 / 3440 * 100vw);
     height: calc(98 / 3440 * 100vw);
     background-color: transparent;
-    border-radius: calc(39 / 3440 * 100vw);
+    border-radius: calc(23 / 1920 * 100vw);
     border: calc(5 / 3440 * 100vw) solid #15E9C3FF;
     vertical-align: center;
     padding-left: calc(32 / 3440 * 100vw);
@@ -1136,6 +1195,7 @@ body {
     margin-left: calc(12 / 3440 * 100vw);
   }
 
+
   input#fio::placeholder, input#institution::placeholder, input#email::placeholder,
   input#phone::placeholder, input#team-name::placeholder {
     color: rgba(21, 233, 195, 0.28);
@@ -1144,11 +1204,11 @@ body {
   }
 
   .track_container, .part_container {
-    width: calc(690 / 3440 * 100vw);
-    height: calc(90 / 3440 * 100vw);
+    width: calc(727 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
     background-color: transparent;
     border: calc(5 / 3440 * 100vw) solid #15E9C3FF;
-    border-radius: calc(39 / 3440 * 100vw);
+    border-radius: calc(23 / 1920 * 100vw);
     margin-top: calc(8 / 3440 * 100vw);
     margin-bottom: calc(16 / 3440 * 100vw);
     position: relative;
@@ -1178,14 +1238,14 @@ body {
   select#track, select#has-team {
     appearance: none;
     width: calc(381 / 3440 * 100vw);
-    height: calc(90 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
     background-color: #15e9c3;
     color: #1e1e1e;
     border-radius: calc(32 / 3440 * 100vw);
     border: calc(5 / 3440 * 100vw) solid #15E9C3FF;
     position: absolute;
-    top: calc(0 / 3440 * 100vw);
-    right: calc(0 / 3440 * 100vw);
+    top: calc(-5 / 3440 * 100vw);
+    right: calc(-5 / 3440 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-size: calc(35 / 3440 * 100vw);
     font-weight: 550;
@@ -1200,8 +1260,8 @@ body {
   }
 
   .team_container {
-    width: calc(690 / 3440 * 100vw);
-    height: calc(90 / 3440 * 100vw);
+    width: calc(727 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
     background-color: transparent;
     border: calc(5 / 3440 * 100vw) solid #15E9C3FF;
     border-radius: calc(39 / 3440 * 100vw);
@@ -1219,7 +1279,7 @@ body {
 
   #no-team-message {
     width: calc(726 / 3440 * 100vw);
-    height: calc(70 / 3440 * 100vw);
+    height: calc(98 / 3440 * 100vw);
     background-color: transparent;
     border: calc(5 / 3440 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 3440 * 100vw);
@@ -1234,6 +1294,7 @@ body {
   .no-team-text {
     text-align: center;
   }
+
 
   #no-team-message {
     margin-top: calc(16 / 3440 * 100vw);
@@ -1256,7 +1317,8 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: calc(48 / 3440 * 100vw);
+    margin-top: calc(40 / 3440 * 100vw);
+    margin-bottom: calc(72 / 3440 * 100vw);
     margin-left: calc(16 / 3440 * 100vw);
   }
 
@@ -1264,12 +1326,13 @@ body {
     width: auto;
     height: auto;
     position: absolute;
-    top: calc(-5 / 3440 * 100vw);
+    top: calc(-16 / 3440 * 100vw);
     left: calc(50 / 3440 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
     font-size: calc(31 / 3440 * 100vw);
+    line-height: calc(31 / 3440 * 100vw);
     color: white;
   }
 
@@ -1305,6 +1368,23 @@ body {
   button#subbut:hover {
     background-color: #15E9C3FF;
     color: #1E1E1E;
+  }
+
+  #successMessage {
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(41 / 3440 * 100vw);
+    width: calc(726 / 3440 * 100vw);
+    height: calc(97 / 3440 * 100vw);
+    color: #15E9C3FF;
+
+    background-color: rgb(30, 30, 30);
+    border: calc(5 / 3440 * 100vw) solid #15E9C3;
+    border-radius: calc(39 / 3440 * 100vw);
+    cursor: pointer;
+
+    position: relative;
+    padding-left: calc(170 / 3440 * 100vw);
+    padding-top: calc(19 / 3440 * 100vw);
   }
 
   #team-name-container {
@@ -1365,8 +1445,6 @@ body {
 /* Стиль для телефонов (например, экраны меньше 768px) */
 @media screen and (max-aspect-ratio: 1/1) {
 
-
-
   .container {
     width: calc(1920 / 1920 * 100vw);
   }
@@ -1391,7 +1469,7 @@ body {
     left: 0;
   }
 
-  .title{
+  .title {
     width: calc(1742 / 1920 * 100vw);
     height: calc(820 / 1920 * 100vw);
     top: calc(1263 / 1920 * 100vw);
@@ -1461,11 +1539,11 @@ body {
   }
 
   .QA {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(12600 / 1920 * 100vw);
-    left: calc(223 / 1920 * 100vw);
+    left: calc(60 / 1920 * 100vw);
     display: flex;
     flex-direction: column;
   }
@@ -1482,7 +1560,7 @@ body {
   .Q_first_rec, .Q_second_rec, .Q_third_rec,
   .Q_fourth_rec, .Q_fifth_rec, .Q_sixth_rec, .Q_seventh_rec,
   .Q_eighth_rec, .Q_ninth_rec, .Q_tenth_rec {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
     height: auto;
 
     display: flex;
@@ -1498,7 +1576,7 @@ body {
   .Q_first, .Q_second, .Q_third,
   .Q_fourth, .Q_fifth, .Q_sixth, .Q_seventh,
   .Q_eighth, .Q_ninth, .Q_tenth {
-    width: calc(1200 / 1920 * 100vw);
+    width: auto;
     height: auto;
 
     margin-right: auto;
@@ -1507,8 +1585,8 @@ body {
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
-    font-size: calc(66 / 1920 * 100vw);
-    line-height: calc(66 / 1920 * 100vw);
+    font-size: calc(70 / 1920 * 100vw);
+    line-height: calc(80 / 1920 * 100vw);
     color: #ffffff;
   }
 
@@ -1516,7 +1594,7 @@ body {
   .Q_fourth_button_arrow, .Q_fifth_button_arrow, .Q_sixth_button_arrow, .Q_seventh_button_arrow,
   .Q_eighth_button_arrow, .Q_ninth_button_arrow, .Q_tenth_button_arrow {
     width: calc(55 / 1920 * 100vw);
-    height: calc(55 / 1920 * 100vw);
+    height: auto;
     background-color: transparent;
     color: transparent;
     border: transparent;
@@ -1527,9 +1605,9 @@ body {
   .Q_first_button, .Q_third_button,
   .Q_sixth_button, .Q_seventh_button,
   .Q_fourth_button, .Q_fifth_button,
-  .Q_eighth_button {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+  .Q_eighth_button, .Q_ninth_button, .Q_tenth_button {
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     position: absolute;
     left: calc(0 / 1920 * 100vw);
 
@@ -1542,8 +1620,8 @@ body {
     cursor: pointer;
   }
 
-  .Q_second_button, .Q_ninth_button, .Q_tenth_button {
-    width: calc(1474 / 1920 * 100vw);
+  .Q_second_button {
+    width: calc(1800 / 1920 * 100vw);
     height: calc(220 / 1920 * 100vw);
     position: absolute;
     left: calc(0 / 1920 * 100vw);
@@ -1564,7 +1642,7 @@ body {
   .A_first, .A_second, .A_third,
   .A_fourth, .A_fifth, .A_sixth, .A_seventh,
   .A_eighth, .A_ninth, .A_tenth {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
     margin-top: calc(14 / 1920 * 100vw);
     background-color: #1E1E1E;
     border: calc(11 / 1920 * 100vw) solid #5A00CD;
@@ -1628,30 +1706,30 @@ body {
     height: 1px;
     background: #1E1E1E;
     position: absolute;
-    top: calc(14760 / 1920 * 100vw);
+    top: calc(12750 / 1920 * 100vw);
     left: calc(223 / 1920 * 100vw);
   }
 
   .application {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
     height: auto;
     display: flex;
     flex-direction: column;
     position: absolute;
     top: calc(15460 / 1920 * 100vw);
-    left: calc(223 / 1920 * 100vw);
+    left: calc(60 / 1920 * 100vw);
   }
 
   .application_title_png {
-    width: calc(1473 / 1920 * 100vw);
-    height: calc(162 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
+    height: auto;
     position: absolute;
     top: 0;
     left: 0;
   }
 
   .application_form {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -1663,7 +1741,7 @@ body {
   }
 
   .form-container {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
     height: auto;
     display: flex;
     position: absolute;
@@ -1674,8 +1752,8 @@ body {
 
   input#fio, input#institution,
   input#email, input#phone {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
@@ -1684,22 +1762,22 @@ body {
     margin-top: calc(16 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(80 / 1920 * 100vw);
     box-sizing: border-box;
     font-weight: 550;
     color: white;
   }
 
   input#team-name {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
     vertical-align: center;
     padding-left: calc(106 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(80 / 1920 * 100vw);
     box-sizing: border-box;
     font-weight: 550;
     color: white;
@@ -1709,11 +1787,11 @@ body {
   input#phone::placeholder, input#team-name::placeholder {
     color: rgba(21, 233, 195, 0.28);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(80 / 1920 * 100vw);
   }
 
   .part_container {
-    width: calc(1474 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
     height: calc(154 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
@@ -1725,8 +1803,8 @@ body {
   }
 
   .team_container {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
     border-radius: calc(39 / 1920 * 100vw);
@@ -1736,9 +1814,9 @@ body {
     padding-left: calc(106 / 1920 * 100vw);
   }
 
-  .track_container  {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+  .track_container {
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3FF;
     border-radius: calc(39 / 1920 * 100vw);
@@ -1752,17 +1830,17 @@ body {
     width: auto;
     height: auto;
     position: absolute;
-    top: calc(32 / 1920 * 100vw);
+    top: calc(30 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(80 / 1920 * 100vw);
     color: #15E9C3FF;
   }
 
   select#track, select#participation-format, select#has-team {
     display: block;
     appearance: none;
-    width: calc(776 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(900 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     background-color: #15e9c3;
     color: #1e1e1e;
     border-radius: calc(30 / 1920 * 100vw);
@@ -1773,14 +1851,14 @@ body {
     top: 0;
     right: 0;
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(80 / 1920 * 100vw);
     font-weight: 550;
     cursor: pointer;
   }
 
   select#track option, select#participation-format option, select#has-team option {
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(160 / 1920 * 100vw);
     font-weight: 550;
   }
 
@@ -1789,14 +1867,14 @@ body {
   }
 
   #team-options {
-    width: calc(776 / 1920 * 100vw);
+    width: calc(900 / 1920 * 100vw);
     margin-bottom: calc(16 / 1920 * 100vw);
     margin-top: calc(16 / 1920 * 100vw);
   }
 
   #no-team-message {
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     background-color: transparent;
     border: calc(5 / 1920 * 100vw) solid #15E9C3;
     border-radius: calc(39 / 1920 * 100vw);
@@ -1805,7 +1883,7 @@ body {
     margin-bottom: calc(35 / 1920 * 100vw);
     font-family: 'Gilroy', sans-serif;
     font-weight: 550;
-    font-size: calc(66 / 1920 * 100vw);
+    font-size: calc(80 / 1920 * 100vw);
     text-align: center;
     position: relative;
     color: #15E9C3FF;
@@ -1818,9 +1896,9 @@ body {
 
   button#subbut {
     font-family: 'Gilroy', sans-serif;
-    font-size: calc(66 / 1920 * 100vw);
-    width: calc(1474 / 1920 * 100vw);
-    height: calc(154 / 1920 * 100vw);
+    font-size: calc(80 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
     color: #15E9C3FF;
     position: absolute;
     bottom: calc(0 / 1920 * 100vw);
@@ -1845,17 +1923,17 @@ body {
   .conditionsButt {
     width: calc(727 / 1920 * 100vw);
     height: auto;
-    margin-left: calc(106 / 1920 * 100vw);
+    margin-left: calc(0 / 1920 * 100vw);
     margin-top: calc(60 / 1920 * 100vw);
 
   }
 
   .conditionsText {
-    width: calc(1000 / 1920 * 100vw);
+    width: calc(1660 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(-20 / 1920 * 100vw);
-    left: calc(220 / 1920 * 100vw);
+    top: calc(6 / 1920 * 100vw);
+    left: calc(130 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
@@ -1880,6 +1958,23 @@ body {
   button#subbut:hover {
     background-color: #15E9C3FF;
     color: #1E1E1E;
+  }
+
+  #successMessage {
+    font-family: 'Gilroy', sans-serif;
+    font-size: calc(80 / 1920 * 100vw);
+    width: calc(1800 / 1920 * 100vw);
+    height: calc(160 / 1920 * 100vw);
+    color: #15E9C3FF;
+
+    background-color: rgb(30, 30, 30);
+    border: calc(5 / 1920 * 100vw) solid #15E9C3;
+    border-radius: calc(39 / 1920 * 100vw);
+    cursor: pointer;
+
+    position: relative;
+    padding-left: calc(520 / 1920 * 100vw);
+    padding-top: calc(25 / 1920 * 100vw);
   }
 
   #team-name-container {
@@ -1934,6 +2029,4 @@ body {
     top: calc(562 / 1920 * 100vw);
     left: 0;
   }
-
 }
-

@@ -144,7 +144,7 @@
 
 
       <div class="form-container">
-        <form id="applicationForm" action="submit.php" method="post" onsubmit="clearForm(event)">
+        <form id="applicationForm" action="submit.php" method="post" onsubmit="sendForm(event)">
           <input type="text" placeholder="фио" id="fio" name="fio" required>
 
 
@@ -189,6 +189,7 @@
               <div class="conditionsText">с политикой конфиденциальности и положением согласен</div>
             </div>
             <button id="subbut" type="submit" disabled>отправить</button>
+            <div id="successMessage" class="hidden">заявка отправлена</div>
           </div>
 
         </form>
@@ -221,6 +222,35 @@
 </script>
 
 <script src="js/toggleBut.js"></script>
+
+<script>
+  function sendForm(event) {
+    event.preventDefault(); // Отменяем стандартное действие отправки формы
+    const formData = new FormData(document.getElementById('applicationForm'));
+
+    fetch('submit.php', {
+      method: 'POST',
+      body: formData,
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === "success") {
+        document.getElementById('subbut').style.display = 'none';
+        document.getElementById('successMessage').style.display = 'block';
+        document.getElementById('successMessage').textContent = data.message;
+      } else {
+        alert('Ошибка: ' + data.message);
+      }
+    })
+    .catch(error => {
+      console.error('Ошибка при отправке данных:', error);
+      alert('Ошибка при отправке заявки. Попробуйте еще раз.');
+    });
+  }
+</script>
+
+
+
 
 
 </body>
