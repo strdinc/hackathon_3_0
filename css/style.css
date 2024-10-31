@@ -120,7 +120,7 @@ body {
   .ball_blue_png {
     width: calc(1319 / 1920 * 100vw);
     height: calc(1319 / 1920 * 100vw);
-    top: calc(1300 / 1920 * 100vw);
+    top: calc(1100 / 1920 * 100vw);
     left: calc(1060 / 1920 * 100vw);
     position: absolute;
   }
@@ -191,7 +191,7 @@ body {
     width: calc(693 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(500 / 1920 * 100vw);
+    top: calc(300 / 1920 * 100vw);
     left: 0;
   }
 
@@ -205,7 +205,7 @@ body {
     border-radius: calc(90 / 1920 * 100vw);
     background-color: transparent;
 
-    padding-top: calc(18 / 1920 * 100vw);
+    padding-top: calc(5 / 1920 * 100vw);
     padding-left: calc(38 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
@@ -215,49 +215,49 @@ body {
   }
 
   .participation_analytics, .participation_front_end {
-    top: calc(665 / 1920 * 100vw);
+    top: calc(520 / 1920 * 100vw);
   }
 
   .participation_project, .participation_back_end {
-    top: calc(800 / 1920 * 100vw);
+    top: calc(640 / 1920 * 100vw);
   }
 
   .participation_testing, .participation_UXUI {
-    top: calc(935 / 1920 * 100vw);
+    top: calc(760 / 1920 * 100vw);
   }
 
   .participation_analytics {
-    width: calc(294 / 1920 * 100vw);
+    width: calc(335 / 1920 * 100vw);
 
     left: 0;
   }
 
   .participation_front_end {
-    width: calc(270 / 1920 * 100vw);
+    width: calc(310 / 1920 * 100vw);
 
     left: calc(371 / 1920 * 100vw);
   }
 
   .participation_project {
-    width: calc(510 / 1920 * 100vw);
+    width: calc(550 / 1920 * 100vw);
 
     left: calc(56 / 1920 * 100vw);
   }
 
   .participation_back_end {
-    width: calc(275 / 1920 * 100vw);
+    width: calc(315 / 1920 * 100vw);
 
     left: calc(643 / 1920 * 100vw);
   }
 
   .participation_testing {
-    width: calc(377 / 1920 * 100vw);
+    width: calc(415 / 1920 * 100vw);
 
     left: 0;
   }
 
   .participation_UXUI {
-    width: calc(359 / 1920 * 100vw);
+    width: calc(400 / 1920 * 100vw);
 
     left: calc(454 / 1920 * 100vw);
   }
@@ -266,7 +266,7 @@ body {
     width: calc(1673 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(2686 / 1920 * 100vw);
+    top: calc(2486 / 1920 * 100vw);
     left: calc(124 / 1920 * 100vw);
   }
 
@@ -274,7 +274,7 @@ body {
     width: calc(1598 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(4000 / 1920 * 100vw);
+    top: calc(3800 / 1920 * 100vw);
     left: calc(-547 / 1920 * 100vw);
   }
 
@@ -283,7 +283,7 @@ body {
     height: auto;
 
     position: absolute;
-    top: calc(4000 / 1920 * 100vw);
+    top: calc(3800 / 1920 * 100vw);
     left: calc(695 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
@@ -296,7 +296,7 @@ body {
     width: calc(2896 / 1920 * 100vw);
     height: auto;
     position: absolute;
-    top: calc(5000 / 1920 * 100vw);
+    top: calc(4800 / 1920 * 100vw);
     left: calc(-388 / 1920 * 100vw);
   }
 
@@ -315,11 +315,11 @@ body {
   }
 
   .QA {
-    width: calc(1600 / 1920 * 100vw);
+    width: calc(1500 / 1920 * 100vw);
     height: auto;
     position: absolute;
     top: calc(7000 / 1920 * 100vw);
-    left: calc(123 / 1920 * 100vw);
+    left: calc(224 / 1920 * 100vw);
     display: flex;
     flex-direction: column;
   }
@@ -336,7 +336,7 @@ body {
   .Q_first_rec, .Q_second_rec, .Q_third_rec,
   .Q_fourth_rec, .Q_fifth_rec, .Q_sixth_rec, .Q_seventh_rec,
   .Q_eighth_rec, .Q_ninth_rec, .Q_tenth_rec {
-    width: calc(1600 / 1920 * 100vw);
+    width: calc(1500 / 1920 * 100vw);
 
     display: flex;
     flex-direction: row;
@@ -364,32 +364,72 @@ body {
     color: #ffffff;
   }
 
-  .Q_first_button, .Q_second_button, .Q_third_button,
-  .Q_fourth_button, .Q_fifth_button, .Q_sixth_button, .Q_seventh_button,
-  .Q_eighth_button, .Q_ninth_button, .Q_tenth_button {
-    width: calc(48 / 1920 * 100vw);
-    height: calc(48 / 1920 * 100vw);
-
+  .Q_first_button_arrow, .Q_third_button_arrow,
+  .Q_fourth_button_arrow, .Q_fifth_button_arrow, .Q_sixth_button_arrow, .Q_seventh_button_arrow,
+  .Q_eighth_button_arrow, .Q_ninth_button_arrow, .Q_tenth_button_arrow {
+    width: calc(45 / 1920 * 100vw);
+    height: calc(45 / 1920 * 100vw);
     background-color: transparent;
-
+    color: transparent;
     border: transparent;
-
-    margin-top: calc(12 / 1920 * 100vw);
-    margin-right: calc(50 / 1920 * 100vw);
-
-    cursor: pointer;
+    border-radius: calc(29 / 1920 * 100vw);
+    margin: calc(0 / 1920 * 100vw) calc(100 / 1920 * 100vw) auto auto;
   }
+
+  .Q_second_button_arrow {
+    width: calc(45 / 1920 * 100vw);
+    height: calc(45 / 1920 * 100vw);
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+    border-radius: calc(29 / 1920 * 100vw);
+    margin: calc(40 / 1920 * 100vw) calc(100 / 1920 * 100vw) auto auto;
+  }
+  
 
   .Q_first_arrow, .Q_second_arrow, .Q_third_arrow,
   .Q_fourth_arrow, .Q_fifth_arrow, .Q_sixth_arrow, .Q_seventh_arrow,
   .Q_eighth_arrow, .Q_ninth_arrow, .Q_tenth_arrow {
-    width: calc(48 / 1920 * 100vw);
+    width: calc(70 / 1920 * 100vw);
+  }
+
+  .Q_first_button, .Q_third_button,
+  .Q_sixth_button, .Q_seventh_button,
+  .Q_fourth_button, .Q_fifth_button,
+  .Q_eighth_button {
+    width: calc(1500 / 1920 * 100vw);
+    height: calc(117 / 1920 * 100vw);
+    position: absolute;
+    margin-top: calc(-22 / 1920 * 100vw);
+    left: calc(0 / 1920 * 100vw);
+
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+
+    border-radius: calc(29 / 1920 * 100vw);
+
+    cursor: pointer;
+  }
+
+  .Q_second_button, .Q_ninth_button, .Q_tenth_button {
+    width: calc(1500 / 1920 * 100vw);
+    height: calc(200 / 1920 * 100vw);
+    position: absolute;
+    margin-top: calc(-22 / 1920 * 100vw);
+    left: calc(0 / 1920 * 100vw);
+
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
+
+    cursor: pointer;
   }
 
   .A_first, .A_second, .A_third,
   .A_fourth, .A_fifth, .A_sixth, .A_seventh,
   .A_eighth, .A_ninth, .A_tenth {
-    width: calc(1494 / 1920 * 100vw);
+    width: calc(1500 / 1920 * 100vw);
     margin-top: calc(14 / 1920 * 100vw);
     background-color: #1E1E1E;
     border: calc(11 / 1920 * 100vw) solid #5A00CD;
@@ -414,7 +454,7 @@ body {
   }
 
   .application {
-    width: calc(1700 / 1920 * 100vw);
+    width: calc(1600 / 1920 * 100vw);
     height: auto;
     display: flex;
     flex-direction: column;
@@ -444,7 +484,7 @@ body {
   }
 
   .form-container {
-    width: calc(1700 / 1920 * 100vw);
+    width: calc(1490 / 1920 * 100vw);
     height: auto;
     display: flex;
     position: absolute;
@@ -609,12 +649,13 @@ body {
     width: auto;
     height: auto;
     position: absolute;
-    top: calc(-5 / 1920 * 100vw);
+    top: calc(-16 / 1920 * 100vw);
     left: calc(50 / 1920 * 100vw);
 
     font-family: 'Gilroy', sans-serif;
     font-weight: 450;
     font-size: calc(31 / 1920 * 100vw);
+    line-height: calc(31 / 1920 * 100vw);
     color: white;
   }
 
